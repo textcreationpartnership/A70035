@@ -1,0 +1,1092 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Scriptures harmony by E.F., Esq.</title>
+            <author>Fisher, Edward, fl. 1627-1655.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1643</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 96 KB of XML-encoded text transcribed from 28 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A70035</idno>
+            <idno type="STC">Wing F1001</idno>
+            <idno type="STC">ESTC R17197</idno>
+            <idno type="EEBO-CITATION">11860872</idno>
+            <idno type="OCLC">ocm 11860872</idno>
+            <idno type="VID">50013</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A70035)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 50013)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 29:6 or 240:E70, no 14)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The Scriptures harmony by E.F., Esq.</title>
+                  <author>Fisher, Edward, fl. 1627-1655.</author>
+               </titleStmt>
+               <extent>[6], 48 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Richard Cotes, for William Hope ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1643.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Attributed to Edward Fisher. Cf. Halkett &amp; Laing (2nd ed.).</note>
+                  <note>Reproduction of original in Huntington Library and Thomason Collection, British Library.</note>
+                  <note>Marginal notes.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible --  Evidences, authority, etc.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-10</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-12</date>
+            <label>Anne Simpson</label>Sampled and proofread</change>
+         <change>
+            <date>2013-12</date>
+            <label>Anne Simpson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:50013:1"/>
+            <pb facs="tcp:50013:1" rendition="simple:additions"/>
+            <p> THE SCRIPTVRES HARMONY.</p>
+            <p>
+               <hi>By</hi> E. F. <hi>Eſq.</hi>
+            </p>
+            <figure>
+               <figDesc>device for Richard Cotes?</figDesc>
+               <p>HEB DDIM HEB DDIEV</p>
+            </figure>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>Richard Cotes,</hi> for <hi>William Hope,</hi> and are to be ſold at his ſhop at the ſigne of the Unicorne in Cornhill.</p>
+            <p>1643.</p>
+            <pb facs="tcp:50013:2"/>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:50013:2"/>
+            <head>TO THE READER.</head>
+            <p>
+               <seg rend="decorInit">M</seg>Any and various are the opinions of Writers con<g ref="char:EOLhyphen"/>cerning the continuance of the world before Chriſt: inſomuch that it is grown into a Proverb; <note n="(a)" place="margin">Chronologi non magis con<g ref="char:EOLhyphen"/>gruunt, quam ho<g ref="char:EOLhyphen"/>rologia. Victo<g ref="char:EOLhyphen"/>rin. Strigel. Pro<g ref="char:EOLhyphen"/>legom. in Chron. Melancth.</note> 
+               <hi>Chro<g ref="char:EOLhyphen"/>nologers agree like Clocks.</hi> 
+               <note n="(b)" place="margin">Vix duos re<g ref="char:EOLhyphen"/>perire licea<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, qui omnibus in l<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>cis inter ſ<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> conveni<g ref="char:EOLhyphen"/>ant. Func. Epiſt. dedicat.</note> Scarce two of one mind throughout.</p>
+            <p>The chiefe and maine ground of theſe differences is, becauſe moſt, neglecting the Word of God, are drawne away with Fables, humane traditions, and uncer<g ref="char:EOLhyphen"/>taine authorities, whereby they <note n="(c)" place="margin">
+                  <hi>Vide Slei<g ref="char:EOLhyphen"/>dan. de</hi> 4 <hi>ſum. Imper. l.</hi> 1. <hi>Genebrard Chro<g ref="char:EOLhyphen"/>nograph. l.</hi> 1. <hi>Chemnit. Harm. Evangel. c.</hi> 8. <hi>Euſtach. Phyſ. parte ſecunda diſput.</hi> 1. <hi>quaeſt.</hi> 5.</note> ex<g ref="char:EOLhyphen"/>ceed the juſt and true number, ſome
+<pb facs="tcp:50013:3"/> forty yeeres, ſome one hundred, ſome one thouſand, nay ſome two thouſand yeeres, and upwards. Others, who ſeeme much to follow the Scriptures, and He<g ref="char:EOLhyphen"/>brew expoſitours, (unto whom <note n="(d)" place="margin">
+                  <hi>Lyra anno<g ref="char:EOLhyphen"/>tat. in Gen. c.</hi> 15. <hi>v.</hi> 13.</note> with<g ref="char:EOLhyphen"/>out all peradventure we ought in this point to ſubſcribe) doe indeed <note n="(e)" place="margin">In accom<g ref="char:EOLhyphen"/>pting <hi>Terahs</hi> age when <hi>Abraham</hi> was born; and the time of the promiſe to <hi>A<g ref="char:EOLhyphen"/>braham,</hi> and the Captivity of <hi>Judah,</hi> &amp;c.</note> re<g ref="char:EOLhyphen"/>nounce them, when there is ſmall cauſe to ſuſpect them of falſhood; and em<g ref="char:EOLhyphen"/>brace them, when we know they ſeeke by all meanes to obſcure the truth. As, <note n="(f)" place="margin">
+                  <hi>Beroaldus Chron. l.</hi> 3. <hi>c.</hi> 7. <hi>H. Broughtons</hi> Conſent. <hi>Rollec. in Dan. Rob. Pont. pag.</hi> 17. <hi>Mores</hi> Ta<g ref="char:EOLhyphen"/>bles, <hi>pag.</hi> 62.</note> in beginning <hi>Daniel's</hi> 70. weekes from the firſt yeere of King <hi>Cyrus;</hi> which <hi>Aben<g ref="char:punc">▪</g>Ezra,</hi> a malicious Rabbi, affir<g ref="char:EOLhyphen"/>med; not that he did ſo beleeve, (for then he muſt have confeſſed that the Meſsiah was come, becauſe he himſelfe <note n="(g)" place="margin">He perfect<g ref="char:EOLhyphen"/>ed his Com<g ref="char:EOLhyphen"/>ment on <hi>Daniel Anno Dom.</hi> 1126.</note> ſaw more then thrice 70. weekes finiſhed) but that he might confound the Chriſti<g ref="char:EOLhyphen"/>ans accompt, and render them ridicu<g ref="char:EOLhyphen"/>lous both to the Greeks and Perſians. <note n="(h)" place="margin">
+                  <hi>Hebraeorum Commentatores miris modis re<g ref="char:EOLhyphen"/>gum Perſarum Hiſtoriam dila<g ref="char:EOLhyphen"/>cerarunt. Io. Func. comment. in Chron. l.</hi> 2.</note>
+            </p>
+            <p>His deſigne is by this computation made fruſtrate: All Scriptures ſeemingly jarring in point of time are here reconciled; many
+<pb facs="tcp:50013:3"/> places cleared; eſpecially in the Books of the <hi>Judges, Kings, Chronicles, Ezra, Nehemi<g ref="char:EOLhyphen"/>ah, Eſther, Jeremiah, Ezekiel,</hi> and <hi>Daniel:</hi> Prophecies are ſhewed in their due time to be accompliſhed: Chriſt Ieſus is pro<g ref="char:EOLhyphen"/>ved be the true Meſsiah; and <note n="(i)" place="margin">Gal. 4. v. 4, 5.</note> in the fulneſſe of time to have <hi>redeemed them that were under the Law:</hi> The honour and <note n="(k)" place="margin">
+                  <hi>Chronolo<g ref="char:EOLhyphen"/>gia ſeu temporis exordium cum ordinata ejus ſe<g ref="char:EOLhyphen"/>rie &amp; diſtincta numeris progreſ<g ref="char:EOLhyphen"/>ſione eſt propri<g ref="char:EOLhyphen"/>um Eccleſiae de<g ref="char:EOLhyphen"/>cus; quia ex ſola Scriptura Sacra recte cognoſcitur Polan. Syntag-Theol. l.</hi> 5. <hi>c.</hi> 15.</note> comelineſſe of Gods Church is here preſented; and a neceſſary <note n="(l)" place="margin">Nulla hiſto<g ref="char:EOLhyphen"/>ria lucem habet ſine temporum ſerie. Vict. Stri<g ref="char:EOLhyphen"/>gel. proleg. in Melancth. Chro<g ref="char:EOLhyphen"/>nologia alter hi<g ref="char:EOLhyphen"/>ſtoriae oculus. Polan. ibid.</note> help, as well in remembring as underſtanding of the Scrip<g ref="char:EOLhyphen"/>tures, is adminiſtred.</p>
+            <closer>To thee be the uſe: To God be the glory.</closer>
+            <closer>
+               <salute>Farewell.</salute>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:50013:4"/>
+            <head>THE SCRIPTVRES HARMONY:</head>
+            <p>Containing A briefe, plaine, and perfect computation of the yeeres and times from the Creation of <hi>Adam,</hi> unto the death and paſſion of our bleſſed Lord and Savi<g ref="char:EOLhyphen"/>our Ieſus Chriſt, according to the Scriptures;</p>
+            <p>As followeth.</p>
+            <div type="part">
+               <head>
+                  <pb n="1" facs="tcp:50013:4"/>
+                  <seg rend="decorInit">F</seg>Rom the Creation of ADAM unto the ceaſing of NOAH'S Flood, are 1656. yeeres.</head>
+               <p>
+                  <hi>FOR,</hi>
+               </p>
+               <p>Adam <hi>was</hi> 130 <hi>yeeres old when he begat</hi> Seth. <note place="margin">Gen. 5. verſ. 3.</note>
+               </p>
+               <p>Seth <hi>at</hi> 105 <hi>yeeres begat</hi> Enos. <note place="margin">Verſe 6.</note>
+               </p>
+               <p>Enos <hi>at</hi> 90 <hi>yeeres begat</hi> Cainan. <note place="margin">Verſe 9.</note>
+               </p>
+               <p>Cainan <hi>at</hi> 70 <hi>yeeres begat</hi> Mahalaleel. <note place="margin">Verſe 12.</note>
+               </p>
+               <p>Mahalaleel <hi>at</hi> 65 <hi>yeeres begat</hi> Jared. <note place="margin">Verſe. 15.</note>
+               </p>
+               <p>Iared <hi>at</hi> 162 <hi>yeeres begat</hi> Enoch. <note place="margin">Verſe 18.</note>
+               </p>
+               <p>Enoch <hi>at</hi> 65 <hi>yeeres begat</hi> Methuſelah. <note place="margin">Verſe 21.</note>
+               </p>
+               <p>Methuſelah <hi>at</hi> 187 <hi>yeeres begat</hi> Lamech. <note place="margin">Verſe 25.</note>
+               </p>
+               <p>Lamech <hi>at</hi> 182 <hi>yeeres begat</hi> Noah. <note place="margin">Verſe 28. 29.</note>
+               </p>
+               <p>Noah <hi>was</hi> 600 <hi>yeeres old when the Flood was upon</hi> 
+                  <note place="margin">Ch. 7. ver. 6.</note> 
+                  <hi>the earth.</hi>
+               </p>
+               <p>
+                  <hi>THE waters of the Flood began in the ſixe</hi> 
+                  <note place="margin">C. 7. v. 10. 11. C. 8. v. 13.</note> 
+                  <hi>hundred yeere of</hi> Noah's <hi>life, in the ſe<g ref="char:EOLhyphen"/>cond moneth, the ſeventeenth day of the moneth, and were dried up in the ſixe hundred and one yeere, in the firſt moneth, the firſt day of the moneth.</hi> So that the Flood continued ten moneths and thir<g ref="char:EOLhyphen"/>teene
+<pb n="2" facs="tcp:50013:5"/> dayes; which being the ſame with the ſixe hundreth yeer of <hi>Noah,</hi> are not to be accompted.</p>
+               <p>
+                  <hi>The ſaid times accompted are</hi> 1656 <hi>yeeres.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <head>From the ceaſing of NOAH<hi>'s</hi> Flood unto ABRAHAMS departing from VR of the Chaldees, are 362. yeeres.</head>
+               <p>
+                  <hi>FOR,</hi>
+               </p>
+               <p>Shem Noah's <hi>ſonne, begat</hi> Arphaxad 2 <hi>yeeres after</hi> 
+                  <note place="margin">Ch. 11. verſ. 10.</note> 
+                  <hi>the Flood.</hi>
+               </p>
+               <p>Arphaxad <hi>at</hi> 35 <hi>yeeres begat</hi> Salah. <note place="margin">Verſe 12.</note>
+               </p>
+               <p>Salah <hi>at</hi> 30 <hi>yeeres begat</hi> Eber. <note place="margin">Verſe 14.</note>
+               </p>
+               <p>Eber <hi>at</hi> 34 <hi>yeeres begat</hi> Peleg. <note place="margin">Verſe 16.</note>
+               </p>
+               <p>Peleg <hi>at</hi> 30 <hi>yeeres begat</hi> Reu. <note place="margin">Verſe 18.</note>
+               </p>
+               <p>Reu <hi>at</hi> 32 <hi>yeeres begat</hi> Serug. <note place="margin">Verſe 20.</note>
+               </p>
+               <p>Serug <hi>at</hi> 30 <hi>yeeres begat</hi> Nahor. <note place="margin">Verſe 22.</note>
+               </p>
+               <p>Nahor <hi>at</hi> 29 <hi>yeeres begat</hi> Terah. <note place="margin">Gen. 11. v. 24.</note>
+               </p>
+               <p>Terah <hi>at</hi> 70 <hi>yeeres begat</hi> Abraham. <note place="margin">Verſe 26.</note>
+               </p>
+               <div type="section">
+                  <head>Reaſons why it cannot be admitted that TERAH begat ABRAHAM at 130. yeeres old.</head>
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="1"/> FIrſt, becauſe we muſt then grant, that there were two promiſes made by God unto <hi>Abraham;</hi> The
+<pb n="3" facs="tcp:50013:5"/> one before his departure out of <hi>Ur</hi> of the <hi>Chaldees;</hi> The other after <hi>Terah's</hi> death, before his departure out of <hi>Haran:</hi> Which is a meere conceit, and can<g ref="char:EOLhyphen"/>not be proved out of the Scriptures. For Saint <hi>Ste<g ref="char:EOLhyphen"/>phen</hi> by repeating the words of <hi>Moſes, Get thee out</hi> 
+                     <note place="margin">Acts 7. v. 2. 3, 4 Gen. 12. v. 1.</note> 
+                     <hi>of thy Countrey, &amp;c.</hi> ſhewes plainly, that <hi>Moſes</hi> and he did both ſpeake of one and the ſame promiſe, which (he expreſſely ſaith) was made <hi>in Meſopota<g ref="char:EOLhyphen"/>mia</hi> (containing at that time <hi>the land of the Chaldees) before Abraham dwelt in Charran.</hi> And indeed had Saint <hi>Stephen</hi> at that time ſpoken any thing differing from <hi>Moſes</hi> (though by divine revelation, yet) he <note place="margin">Sr. <hi>W. Ral.</hi> Hiſt. l. 1. c. 1. Sect. 3.</note> had offered the Jewes, his accuſers, too great an oc<g ref="char:EOLhyphen"/>caſion of ſcandalizing him, and the Goſpel of Chriſt.</p>
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="2"/> Secondly, becauſe we muſt then admit, that <hi>Mo<g ref="char:EOLhyphen"/>ſes,</hi> who ſo punctually and largely has ſet downe the life of <hi>Abraham,</hi> did leave out, and not at all mention the firſt and chiefe promiſe made by God unto <hi>Abraham:</hi> which would ſavour of no leſſe im<g ref="char:EOLhyphen"/>piety then improbability.</p>
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="3"/> Thirdly, becauſe the laſt and beſt <hi>Engliſh</hi> Tran<g ref="char:EOLhyphen"/>ſlations, render not the words of <hi>Moſes</hi> thus; <hi>Terah</hi> 
+                     <note place="margin">Gen. 12. v. 1.</note> 
+                     <hi>died in Haran. And the Lord ſaith,</hi> or, <hi>then the Lord ſaid;</hi> but, <hi>Now the Lord had ſaid unto Abraham,</hi> in the Preterpluperfect Tenſe, ſhewing, that the Lord had made this promiſe before <hi>Terah's</hi> death, and (as Saint <hi>Stephen</hi> ſaith) <hi>in the land of the Chaldees. Juni<g ref="char:EOLhyphen"/>us</hi> and <hi>Tremelius</hi> tranſlate it by the Preterpluper<g ref="char:EOLhyphen"/>fect Tenſe <hi>Dixerat enim:</hi> So <hi>Beza annot. in Act.</hi> 7. <note place="margin">
+                        <g ref="char:V">Ʋ</g>atahl. in a. locum.</note> And <hi>Vatablus</hi> a learned Hebrician confirmes it, <hi>He<g ref="char:EOLhyphen"/>braicè</hi>
+                     <pb n="4" facs="tcp:50013:6"/> 
+                     <hi>per futurum legitur, quod pro praeterito perfecto ponitur: &amp; perfectum pro pluſquam perfecto; Lege Actor. caput<g ref="char:punc">▪</g>
+                     </hi> 7. <hi>in principio. Vertendum igitur, I am verò dix<g ref="char:EOLhyphen"/>erat Dominus.</hi>
+                  </p>
+                  <p>And as Gods promiſe, ſo <hi>Abraham's</hi> departure out of <hi>Haran,</hi> was alſo before <hi>Terah's</hi> death. Nei<g ref="char:EOLhyphen"/>ther doth the relation of it after the death of <hi>Terah</hi> any way hinder: For the Scriptures do fre<g ref="char:EOLhyphen"/>quently <note place="margin">Judg. 10. v. 5. 6. 8. So c. 13<g ref="char:punc">▪</g> v. 24. &amp;c. 15. v. 20. compared with c. 13. v. 1. So Num. 9. v. 1. compared with c. 1. v. 1. So Ezek. 26. v. 1. comp. with c. 26. v. 1. Gen. 25. 1. Gen. 2. v. 3. 22. &amp;c. 3. comp. with c. 1. v. 27. So Jer. 26. v. 1. compared with c 25. v. 1. So c. 49. v. 34. compared with 2. 39. v. 1. So Dan. 7. v. 1. comp. with c. 5 v. 30.</note> in Story place that after, which was done before in time. As we know, that the eighteene yeeres wherein the <hi>Phili<g ref="char:EOLhyphen"/>ſtines</hi> and <hi>Ammonites</hi> oppreſſed <hi>Iſrael,</hi> were in the daies of <hi>Jair</hi> the Judge, yet it is ſaid, <hi>And Jair died, and was buried in Camon. And the children of Iſrael, &amp;c.</hi> where the ſtory of the oppreſſion is placed af<g ref="char:EOLhyphen"/>ter <hi>Jairs</hi> death. So <hi>Abraham's</hi> taking another wife, is mentioned after the death of <hi>Sarah,</hi> which was long before her death, in her time. So the relation of the making of woman, and the fall of man fol<g ref="char:EOLhyphen"/>lowes after the ſeventh day, yet we know, that both were created on the ſixth day. The Prophets, eſpeci<g ref="char:EOLhyphen"/>ally <hi>Jeremiah</hi> &amp; <hi>Daniel,</hi> afford many ſuch examples.</p>
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="4"/> Fourthly, becauſe it cannot be inferred out of Saint <hi>Stephens</hi> words, that <hi>Abraham</hi> departed not out of <hi>Haran</hi> till his fathers death: for he ſaith, <hi>from thence when his father was dead,</hi> 
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, <hi>God tranſplanted him,</hi> that is, fully and abſolutely <hi>remo<g ref="char:EOLhyphen"/>ved him into this Land, tam animo quam corpore;</hi> 
+                     <note place="margin">
+                        <hi>Flac. Illyr. Gloſſ. in</hi> Act. 7. v. 4. <hi>Vide Genebrard Chronol. l.</hi> 1.</note> which indeed could not be before his fathers death,
+<pb n="5" facs="tcp:50013:6"/> becauſe of the duty and naturall affection, which he did and ought to beare unto his Father. So that he <hi>departed thence</hi> at 75. <hi>yeeres</hi> old, as <hi>Moſes</hi> ſaith: but was not <hi>tranſplanted</hi> thence till his fathers death, as Saint <hi>Stephen</hi> ſaith, at which time <hi>Abraham</hi> was 135. yeeres old.</p>
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="5"/> Fifthly, becauſe the Scriptures ſet downe pre<g ref="char:EOLhyphen"/>ciſely, that <hi>Terah lived</hi> 70. <hi>yeeres and begat Abraham,</hi> 
+                     <note place="margin">Gen. 11. v. 16.</note> 
+                     <hi>Nahor, and Haran.</hi> Now if the 70. yeeres be not refer<g ref="char:EOLhyphen"/>red to <hi>Abraham,</hi> then they are inſerted ambiguouſly, and to no purpoſe. <hi>Ambiguouſly,</hi> becauſe it cannot be determined whether they belong to <hi>Nahor</hi> or <hi>Ha<g ref="char:EOLhyphen"/>ran.</hi> And <hi>to no purpoſe,</hi> becauſe what matter is it to the continuance of the Church (which was the ſcope of <hi>Moſes</hi> in that Chapter) to mention how old <hi>Terah</hi> was when he begat <hi>Nahor</hi> or <hi>Haran,</hi> who were Idolaters, and not of the Church?</p>
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="6"/> Sixthly, becauſe we muſt then admit that it was no wonder that <hi>Abraham</hi> ſhould beget a child at 100 yeeres old; whereas the Scriptures record it for an extraordinary act of Gods power, beyond the courſe of nature. <hi>Shall a child</hi> (ſaith <hi>Abraham) be</hi> 
+                     <note place="margin">Gen. 17. v. 17.</note> 
+                     <hi>borne unto hm that is an hundred yeeres old? Therefore</hi> 
+                     <note place="margin">C. 18. v. 11. 12.</note> 
+                     <hi>Sarah laughed within her ſelfe, ſaying, After I am wax<g ref="char:EOLhyphen"/>ed old, ſhall I have pleaſure,</hi> my lord being old alſo? <hi>Abraham's</hi> age (as well as her owne) was the cauſe of <hi>Sarah's</hi> laughter. And Saint <hi>Paul</hi> ſaith, <hi>there ſprang even of one and him</hi> as good as <note place="margin">Heb. 11. v. 12.</note> dead, <hi>ſo many as the Starres of the skie in multi<g ref="char:EOLhyphen"/>tude.</hi>
+                     <pb n="6" facs="tcp:50013:7"/> Nay more, <hi>He conſidered not his</hi> owne <hi>body now</hi> dead, <hi>when he was about</hi> 100 <hi>yeeres old.</hi> 
+                     <note place="margin">Rom. 4 v. 19.</note> Whence it is cleere, that <hi>Abraham's</hi> ſtrength of na<g ref="char:EOLhyphen"/>ture was in his hundreth yeere quite ſpent, his body was unable to beget children; and therefore the wonder was wrought on him, as well as on <hi>Sarah.</hi>
+                  </p>
+                  <p>But in truth I cannot ſee, how they ſhould ac<g ref="char:EOLhyphen"/>count this a wonder, who give <hi>Abraham</hi> a wife and ſixe ſonnes of her after <hi>Sarah's</hi> death; the eldeſt of whom ſhould we ſuppoſe that <hi>Abraham</hi> begat him <note place="margin">Gen. 17. v. 17. compared with C. 23. v. 1.</note> the ſame day that <hi>Sarah</hi> died, muſt be begotten in the 137 yeere of <hi>Abraham's</hi> age: and (if ſome may be credited) all ſix were begotten in leſſe then foure <note place="margin">Sr. <hi>W.</hi> R. Hiſt. l. 1. c. 1. Sect. 4.</note> yeeres. <hi>Sed ex uno abſurdo mille ſequuntur.</hi>
+                  </p>
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="7"/> Seventhly, becauſe the beſt Writers and Chro<g ref="char:EOLhyphen"/>nologers affirme, That <hi>Terah</hi> begat <hi>Abraham</hi> at 70. yeeres old. As, <hi>Joſeph.</hi> Ant. l. 1. c. 7. <hi>Euſeb.</hi> Chron. fol. 6. <hi>Auguſt.</hi> quaeſt. 25. in Gen. <hi>Beda</hi> de 6. aetat. mundi. <hi>Func.</hi> fol. 20. <hi>Bucholz.</hi> pag. 4. <hi>Calviſ.</hi> pag. 35. <hi>Hen. Buntingus.</hi> fol. 22. <hi>Chriſt. Helvic.</hi> fol. 3. <hi>Iſaacſ.</hi> fol. 30.</p>
+                  <p>Nevertheleſſe <hi>Abraham</hi> was not the eldeſt, but the younger ſonne of <hi>Terah,</hi> and is placed firſt, be<g ref="char:EOLhyphen"/>cauſe <note place="margin">Compare Gen. 11. v. 29. with C. 17. v. 17.</note> of his excellency and dignity.</p>
+                  <p>Abraham departed from <hi>Ur of the Chaldees</hi> when he was 70. yeeres old.</p>
+                  <p>His departure was immediately after Gods Cove<g ref="char:EOLhyphen"/>nant with him, <hi>Acts</hi> 7. <hi>v.</hi> 2, 3, 4. which is implyed, <hi>Gen.</hi> 11. <hi>v.</hi> 31. and <hi>c.</hi> 12. <hi>v.</hi> 1. Now Gods Cove<g ref="char:EOLhyphen"/>nant
+<pb n="7" facs="tcp:50013:7"/> was when <hi>Abraham</hi> was 70. yeeres old. For from the Covenant to the Law were 430. yeeres; but from the 75. of <hi>Abraham</hi> to the Law, were but <note place="margin">Gal. 3. v. 17.</note> 425. yeeres; Therefore the Covenant (and ſo his departure out of <hi>Ur)</hi> muſt be five yeeres before, which was in his 70. yeere.</p>
+                  <p>
+                     <hi>The ſaid times accompted are</hi> 362 <hi>yeeres.</hi>
+                  </p>
+               </div>
+            </div>
+            <div type="part">
+               <head>From Abraham's departing from Vr of the Chaldees, unto the departing of the children of <hi>Iſrael</hi> out of <hi>Egypt,</hi> are 430. yeeres.</head>
+               <p>
+                  <hi>FOR,</hi>
+               </p>
+               <p>Abraham <hi>going forth from Ur of the Chaldees</hi> 
+                  <note place="margin">Gen. 11. v. 31. c. 12 v. 4, 5. <hi>Be<g ref="char:EOLhyphen"/>za</hi> in Act. 7. v. 2. 4. 6.</note> 
+                  <hi>came unto Haran,</hi> alias <hi>Charran, in Meſopotamia, where he dwelt</hi> 5 <hi>yeeres;</hi> and ſo (leaving his father <hi>Terah) was</hi> 75. <hi>yeeres old when he departed thence into the land of Canaan.</hi>
+               </p>
+               <p>Note, that as <hi>in</hi> the loines of <hi>Adam all men ſinned;</hi> 
+                  <note place="margin">Rom. 5. v. 12. Heb. 7. v. 9. 10.</note> and as <hi>in the loines of Abraham the Levites paid tithes:</hi> So the children of Iſrael in <hi>Abraham went forth from</hi> 
+                  <note place="margin">Gen. 12. v. 6. 9. 10.</note> 
+                  <hi>Ur of the Chaldees</hi> towards <hi>Egypt,</hi> and <hi>paſſed thorow the land of Canaan, journeying ſtill towards the South,</hi> untill they came into <hi>Egypt.</hi>
+               </p>
+               <p>Iſaac <hi>was borne unto Abraham when he was</hi> 100. <note place="margin">C. 21. v. 5.</note> 
+                  <hi>yeeres old,</hi> and in the 25 yeere after his de<g ref="char:EOLhyphen"/>parture out of <hi>Haran.</hi>
+               </p>
+               <pb n="8" facs="tcp:50013:8"/>
+               <p> Iſaac was 60 yeeres old when <hi>Rebekah</hi> bare <note place="margin">C. 25. v. 26.</note> 
+                  <hi>Jacob.</hi>
+               </p>
+               <p>Iacob, <hi>alias</hi> Iſrael, went into <hi>Egypt</hi> with all <note place="margin">Gen. 32. v. 28. C. 47. v. 9.</note> his family, when he was 130 yeeres old.</p>
+               <p>The children of Iſrael were in <hi>Egypt</hi> 210 <note place="margin">
+                     <hi>Joſeph. ben Go<g ref="char:EOLhyphen"/>rion de Stat. Macca. Et Hebr. pleri<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> omnes, quibus potiſſi<g ref="char:EOLhyphen"/>mum in Chroni<g ref="char:EOLhyphen"/>cis credendum. Lyra in</hi> Gen. 15 v. 13. <hi>Beza in</hi> Act. 7. v. 6.</note> yeeres. Which was by their father <hi>Jacob</hi> Prophe<g ref="char:EOLhyphen"/>tically implied in this word, <hi>Deſcend yee,</hi> or, <hi>Get you downe;</hi> the letters whereof in Hebrew <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, ſignifie 210. <hi>Gen.</hi> 42. <hi>v.</hi> 2.</p>
+               <p>
+                  <hi>(Theſe</hi> 210. <hi>yeeres may be thus ſet forth in particular.</hi>
+               </p>
+               <p>Kohath with his father <hi>Levi came into Egypt:</hi> 
+                  <note place="margin">Gen 46. v. 8. 11 Exod. 6. v. 18.</note> unto whom <hi>Amram</hi> was borne about 60. yeeres after.</p>
+               <p>Amram was 70. yeeres old when <hi>Moſes</hi> was <note place="margin">C. 2. v. 1. 2. 10. C. 6. v. 20. <hi>Epiphan. l. An<g ref="char:EOLhyphen"/>corat.</hi>
+                  </note> borne unto him.</p>
+               <p>Moſes was 80. yeeres old when he conducted <note place="margin">Compare Num. 10. v. 11. 12. &amp;c. 13. v. 26. with Deut. 2. v. 14. &amp;c. 34. v. 7.</note> the children of <hi>Iſrael</hi> out of <hi>Egypt.</hi>
+               </p>
+               <p>The time of the ten plagues of <hi>Egypt</hi> is the ſame with the latter part of the eightieth yeere of <hi>Moſes, Exod.</hi> 7. <hi>verſ.</hi> 7. And it is neceſſarily concluded <note place="margin">Exod. 7. v. 19. to c. 12. v. 29.</note> from thoſe many teſtimonies of <hi>Moſes</hi> his being in
+<pb n="9" facs="tcp:50013:8"/> the Wilderneſſe 40. yeeres. Wherefore Saint <hi>Ste<g ref="char:EOLhyphen"/>phen,</hi> 
+                  <note place="margin">
+                     <hi>Joſeph. Antiqu. l.</hi> 2 <hi>c.</hi> 6.</note> Acts 7. v. 30. did not there intend a full and compleat expiration of 40. yeeres, as he did before, <hi>verſe</hi> 23.)</p>
+               <p>
+                  <hi>The ſaid times accompted are</hi> 430 <hi>yeers, which are mentioned,</hi> Exod. 12. v. 40. 41.</p>
+               <p>But when the Scriptures ſpeak of 400. yeeres, as <note place="margin">
+                     <hi>Beza annot in</hi> Acts 7. v 6.</note> 
+                  <hi>Gen.</hi> 15. <hi>verſ.</hi> 13. and <hi>Acts</hi> 7. <hi>verſ.</hi> 6. The accompt is to be taken from the birth of <hi>Iſaac.</hi>
+               </p>
+               <p>From the departing of the children of <hi>Iſrael</hi> out of <hi>Egypt</hi> unto the laying of the foundation of <hi>Solomons</hi> Temple are 480. yeeres.</p>
+               <p>
+                  <hi>FOR,</hi>
+               </p>
+               <p>Moſes remained in the Wilderneſſe 40 yeeres, <note place="margin">Deut. 2. v. 7. Pſal. 95. v. 10. Amos 5 v. 25. Acts 7. v. 36. 42. &amp;c. 13. v. 18.</note>
+               </p>
+               <p>From the Covenant that God made with <hi>Abra<g ref="char:EOLhyphen"/>ham,</hi> ſaying, IN THEE SHAL <note place="margin">Gen. 12. v. 3. Acts 3. v. 25. Gal. 3. v. 8.</note> ALL NATIONS BE BLESSED, (upon which he departed from <hi>Ur</hi> of the <hi>Chaldees)</hi> unto the giving of the Law <note place="margin">Exod. 19 v. 1. 18 &amp;c. 20. v. 1</note> in Mount <hi>Sinai</hi> are 430. yeeres and almoſt three moneths: But the Apoſtle <hi>Gal.</hi> 3. <hi>v.</hi> 17. leaveth out the moneths as an imperfect number.</p>
+               <pb n="10" facs="tcp:50013:9"/>
+               <p> Ioſhua in the 7 yeere after the death of <hi>Moſes</hi> 
+                  <note place="margin">Comp Deut. 2. v. 7. 14. with Joſh. 14. v. 7. 10.</note> divided the Land of <hi>Canaan;</hi> and after that governed 10 yeeres, (which the Scriptures call a <hi>long time</hi> in reſpect of <hi>Joſhua's</hi> age) and may <note place="margin">Joſh. 13. v. 1 &amp;c. 23. v. 1.</note> be proved by deducting the evident and certaine numbers out of the 480. yeeres mentioned, 1 <hi>King.</hi> 6. <hi>verſ.</hi> 1.</p>
+               <p>Othniel judged <hi>Iſrael</hi> 40 yeeres. <note place="margin">Judg. 3. v. 11.</note>
+               </p>
+               <p>Under whoſe government <hi>Iſrael ſerved the Lord</hi> 
+                  <note place="margin">Joſh. 24. v. 31. Judg 2. v. 7 10.</note> 
+                  <hi>all the dayes</hi> 
+                  <note n="*" place="margin">Which were 17. yeeres ac<g ref="char:EOLhyphen"/>cording to the Hebrewes; o<g ref="char:EOLhyphen"/>thers ſay 20. C. 3. v. 6, 7, 8, 9, 10.</note> 
+                  <hi>of the Elders, who had ſeene the great workes of the Lord;</hi> But when the Elders were dead, they fell to Idolatry, and much wickedneſſe: till at laſt <hi>the Lord ſold them into the hand of Chuſhan-Riſha<g ref="char:EOLhyphen"/>thaim King of Meſopotamia:</hi> by whom being eight yeeres grievouſly oppreſſed, they <hi>cried unto the Lord, and the ſpirit of the Lord came upon Othniel</hi> their Judge, and he delivered them.</p>
+               <p>Note, that when the Scriptures ſay <hi>the Land had</hi> 
+                  <note place="margin">Judg 3. v. 11.</note> 
+                  <hi>reſt</hi> 40. <hi>yeeres, and Othniel died;</hi> it is not to be un<g ref="char:EOLhyphen"/>derſtood that the Land was in peace 40 yeeres to<g ref="char:EOLhyphen"/>gether under <hi>Othniel,</hi> but that the Land had reſt or peace unto the end of 40. yeeres from the deceaſe of <hi>Joſhua;</hi> Or, untill the fortieth yeere of <hi>Othniels</hi> 
+                  <note place="margin">Ad annum qua<g ref="char:EOLhyphen"/>d<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ageſ<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>inum. J<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>n. &amp; Trem.</note> government: But in what yeere before the fortieth the peace began, the Scriptures expreſſe not. So un<g ref="char:EOLhyphen"/>derſtand <hi>Judg.</hi> 3. <hi>v.</hi> 30. <hi>c.</hi> 5. <hi>v.</hi> 31. <hi>&amp;c.</hi> 8. <hi>v.</hi> 28.</p>
+               <p>Ehud with the Vacancy 80 yeeres. <note place="margin">Judg. 3. v. 15. 30.</note>
+               </p>
+               <pb n="11" facs="tcp:50013:9"/>
+               <p> 
+                  <hi>Eglon</hi> K. of <hi>Moab</hi> oppreſſed <hi>Iſrael</hi> 18 yeers. Neer the <note place="margin">C. 3. v. 14.</note> end of which oppreſſion, as ſome ſuppoſe; but more <note place="margin">
+                     <hi>Levi ben Ger<g ref="char:EOLhyphen"/>ſon Func. fol</hi> 35 <hi>Calviſ. pag.</hi> 241</note> probably neere the end of <hi>Ehuds</hi> Judgeſhip, when through long peace and plenty, God the giver of all goodneſſe was forgotten, the execution of juſtice wholly neglected, and <hi>every man did that which was</hi> 
+                  <note place="margin">Judg. c. 17, 18, 19, 20. &amp; 21.</note> 
+                  <hi>right in his owne eyes,</hi> were <hi>thoſe dayes,</hi> wherein the Scriptures ſay, <hi>There was no King in Iſrael.</hi>
+               </p>
+               <p>
+                  <hi>Shamgar,</hi> was a deliverer, but no Judge; for the <note place="margin">C. 3. v. 31.</note> Scriptures neither mention that he judged, nor that <hi>the Land had reſt in his daies.</hi>
+               </p>
+               <p>Deborah 40 yeeres. <note place="margin">C. 5. v 31.</note>
+               </p>
+               <p>
+                  <hi>The</hi> 20. <hi>yeeres</hi> wherein <hi>Jabin King of Canaan</hi> 
+                  <note place="margin">C. 4. v. 2. 3, 4.</note> 
+                  <hi>mightily oppreſſed Iſrael,</hi> were <hi>at that time when De<g ref="char:EOLhyphen"/>borah judged.</hi>
+               </p>
+               <p>Gideon alias Ierubbaal 40 yeeres. <note place="margin">C. 6 v. 32. C. 8. v. 28.</note>
+               </p>
+               <p>Preſently after the death of <hi>Deborah, Midian</hi> op<g ref="char:EOLhyphen"/>preſſed <note place="margin">C 6. v. 11. to the 33.</note> 
+                  <hi>Iſrael:</hi> and though <hi>Gideon, a mighty man of valour,</hi> was in the firſt yeere of their oppreſſion (otherwiſe there could not be <hi>forty yeeres in his</hi> 
+                  <note place="margin">C 8. v. 28.</note> 
+                  <hi>daies)</hi> by the Lord in ſpeciall manner called to the government, and had the Lords promiſe, that he ſhould <hi>ſave Iſrael from the hands of the Midianites:</hi> yet untill the ſeven yeeres oppreſſion (which God <note place="margin">C. 6. v. 1. 34. C. 7. v. 9. 22 23</note> had appointed) were finiſhed, and untill <hi>the ſpirit of the Lord came upon him,</hi> he did not deliver them.</p>
+               <pb n="12" facs="tcp:50013:10"/>
+               <p> Abimelech 3 yeeres. <note place="margin">C. 9. v. 22.</note>
+               </p>
+               <p>Tola 23 yeeres. <note place="margin">C. 10. v. 1, 2.</note>
+               </p>
+               <p>Iair 22 yeeres. <note place="margin">Verſe 3.</note>
+               </p>
+               <p>In the end of the fourth yeere of <hi>Jair,</hi> the Phi<g ref="char:EOLhyphen"/>liſtines <note place="margin">C. 10. v. 7, 8. C. 11. v. 29.</note> and <hi>Ammonites</hi> began to <hi>vexe and oppreſſe Iſrael,</hi> which they continued 18. <hi>yeeres,</hi> untill the Lord raiſed up <hi>Jephthah</hi> to deliver them.</p>
+               <p>Iephthah judged <hi>Iſrael</hi> 6 yeeres. <note place="margin">C. 12. v. 7.</note>
+               </p>
+               <p>About 34. yeeres after that <hi>Sihon King of the</hi> 
+                  <note place="margin">Num. 21. v. 24, 25, 26. &amp;c. 22. v. 2. compared with c. 33. v. 38. 48.</note> 
+                  <hi>Amorites had fought againſt</hi> the predeceſſor of <hi>Balak the ſonne of Zippor King of Moab, and had taken all his Land, even unto Arnon; Iſrael ſmote Sihon and all his people, and poſſeſſed his Countrey:</hi> which was in the laſt yeere of <hi>Moſes.</hi> From whence unto <hi>Jeph<g ref="char:EOLhyphen"/>thah</hi> were but 266. yeeres current; yet by adding the yeeres of their owne poſſeſſion unto <hi>Sihon's,</hi> whoſe right they had by the Law of Conqueſt, <hi>Jephthah</hi> did juſtly ſay, that they had <hi>dwelt in</hi> or <note place="margin">Judg. 11. v. 26.</note> poſſeſſed thoſe Countries <hi>three hundred yeeres.</hi>
+               </p>
+               <p>Ibzan 7 yeeres. <note place="margin">C. 12. v. 8. 9.</note>
+               </p>
+               <p>Elon 10 yeeres. <note place="margin">Verſe 11.</note>
+               </p>
+               <p>Abdon 8 yeeres. <note place="margin">Verſe 13. 14.</note>
+               </p>
+               <pb n="13" facs="tcp:50013:10"/>
+               <p> Samſon 20 yeeres. <note place="margin">C. 16. v. 31.</note>
+               </p>
+               <p>
+                  <hi>The Lord delivered Iſrael into the hand of the Phi<g ref="char:EOLhyphen"/>liſtines</hi> 
+                  <note place="margin">C. 13. v 1. 5. C. 15. v. 20.</note> 40. <hi>yeeres:</hi> Whereof 20. were fulfilled un<g ref="char:EOLhyphen"/>der <hi>Samſon,</hi> and 20. under <hi>Eli.</hi>
+               </p>
+               <p>Eli Judge and Prieſt 40 yeeres. <note place="margin">1 Sam. 4. v. 18.</note>
+               </p>
+               <p>Obſerve here, that from the death of <hi>Joſhua</hi> un<g ref="char:EOLhyphen"/>to <note place="margin">
+                     <hi>Broughtons Ad<g ref="char:EOLhyphen"/>vertiſement, pag</hi> 65. 67.</note> 
+                  <hi>Samuel</hi> are 339. yeeres: whereof the times of oppreſſion and afflictions of <hi>Iſrael</hi> were 111. yeeres: which added together according to the Jewes man<g ref="char:EOLhyphen"/>ner of ſpeaking, make 450. <hi>yeeres.</hi> And therefore Saint <hi>Paul</hi> ſaith, that <hi>God gave the Iſraelites Judges</hi> 
+                  <note place="margin">Acts 13. v. 20. <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, <hi>quaſi.</hi>
+                  </note> 
+                  <hi>after a ſort</hi> 450. <hi>yeeres.</hi>
+               </p>
+               <p>Samuel and Saul 40 yeeres. <note place="margin">
+                     <hi>See Expoſitours upon</hi> Acts 13. v. 21. 1 Sam. 6. v. 1. C. 7. v. 2. 15. C. 8. v. 1. 5. C. 11. v. 7. C. 27. v. 1. 7.</note>
+               </p>
+               <p>To wit, <hi>Samuel</hi> alone about 27. yeers; with <hi>Saul</hi> a<g ref="char:EOLhyphen"/>bout 10. yeers; <hi>Saul</hi> after <hi>Samuels</hi> death about 3. yeers.</p>
+               <p>David reigned 40 yeeres and 6 moneths. <note place="margin">2 Sam 2 v. 11. C. 5 v. 4. 5. 1 K. 2. v. 11. 1 Chr. 3 v 4. &amp;c. 29. v. 26. 27. 1. King. 6. v. 1. 2 Chr. 3. v. 2.</note>
+               </p>
+               <p>Solomon having reigned 3 yeeres and 6 moneths <hi>(in the</hi> end of the <hi>foure hundred and four<g ref="char:EOLhyphen"/>ſcore yeere after Iſrael came out of Egypt, in the ſecond moneth of the Legall yeere)</hi> began to lay the founda<g ref="char:EOLhyphen"/>tion of the Temple, which was finiſhed in the ſeven yeeres and ſixe moneths. As appeares, 1 <hi>King.</hi> 6.
+<pb n="14" facs="tcp:50013:11"/> 
+                  <hi>verſ.</hi> 1. 37. 38. But the ſixe moneths are there left <note place="margin">So 2 Sam. 5. v. 5. comp. with 1 K. 2. v. 11. So 2 King. 24. v. 8. compared with 2 Chr. 36. v. 9. So Gen. 5. v. 32 compared with C. 11. v. 10.</note> out, as the Scriptures oftentimes do imperfect num<g ref="char:EOLhyphen"/>bers.</p>
+               <p>
+                  <hi>The ſaid times accompted are</hi> 480 <hi>yeeres;</hi> Which are mentioned, 1 <hi>King.</hi> 6. <hi>verſ.</hi> 1.</p>
+            </div>
+            <div type="part">
+               <head>From the laying of the foundation of <hi>Solomon's</hi> Temple, unto the beginning of the Captivity of Babylon are 430. yeeres and 10. dayes.</head>
+               <p>
+                  <hi>FOR,</hi> Solomon after the laying of the foundation of <note place="margin">1 K. 11. v. 42. 2 Chr. 9. v. 30.</note> the Temple reigned 36 yeeres and 6 moneths.</p>
+               <p>Preſently after the death of <hi>Solomon,</hi> upon the <note place="margin">1 K. 12. v. 1. 4. 11. 19, 20, 21. 2 Chr. 10 v. 1. 11. 19. &amp;c. 11 v. 1. 12. Joſh. 15. v. 63. c. 18. v. 11. 28. 1 K. 11. v. 13. 32. c. 12. v. 20. 2 K. 17 v. 18.</note> 
+                  <hi>rough</hi> anſwer of his ſonne <hi>Rehoboam,</hi> ten Tribes <hi>re<g ref="char:EOLhyphen"/>belled and made Jeroboam King over Iſrael;</hi> but <hi>the Tribes of Judah and Benjamin followed the houſe of David;</hi> which, becauſe they had their poſſeſſions mixed, are ſometimes accounted as one Tribe.</p>
+               <floatingText xml:lang="eng" type="parallel_texts">
+                  <body>
+                     <div type="part">
+                        <pb n="15" facs="tcp:50013:11"/>
+                        <head>Kings of Iudah.</head>
+                        <p>Rehoboam <note place="margin">1 King. 14. v. 21. 2 Chr. 12. v. 13.</note> 17 yeeres.</p>
+                        <p>Abijah 3 yeeres <note place="margin">1 K. 15. v. 2 2 Chr. 13. v. 2.</note>
+                        </p>
+                        <p>Aſa 41 yeeres. <note place="margin">1 King. 15. v. 10. 2. Chr. 16. v. 13.</note>
+                        </p>
+                        <p>Iehoſhaphat <note place="margin">1 King. 22. v. 42. 2 Chr. 20. v. 31.</note> 25 yeeres.</p>
+                        <p>He is ſtiled <hi>King of</hi> 
+                           <note place="margin">2. Chr. 21. v. 2.</note> 
+                           <hi>Iſrael,</hi> becauſe the right of the Crowne of <hi>Iſrael</hi> was in him, <hi>for Iſrael rebelled a<g ref="char:EOLhyphen"/>gainſt</hi> 
+                           <note place="margin">C. 10. v. 19.</note> 
+                           <hi>the houſe of Da<g ref="char:EOLhyphen"/>vid:</hi> and alſo becauſe God is called <hi>the God</hi> 
+                           <note place="margin">C. 15. v. 13.</note> 
+                           <hi>of Iſrael;</hi> therefore the Kingdome and <note place="margin">Verſe 17. C. 12. v. 1. C. 21. v. 4.</note> people of <hi>Iudah,</hi> where, and by whom God was chiefely
+<pb n="16" facs="tcp:50013:12"/> worſhipped, are ſom<g ref="char:EOLhyphen"/>times called <hi>Iſrael.</hi>
+                        </p>
+                        <p>Iehoram, alias <note place="margin">2 King. 8. v. 17. 23. 2 Chr. 21. v. 5. 20.</note>
+                        </p>
+                        <p>Ioram, 8 yeeres.</p>
+                        <p>Note that the begin<g ref="char:EOLhyphen"/>ning of his reigne is in the Scriptures ac<g ref="char:EOLhyphen"/>compted, either from the time he firſt reig<g ref="char:EOLhyphen"/>ned in his fathers preſence, and ſo <hi>he</hi> 
+                           <note place="margin">2 K. 8. v. 16 Where in the Original it is: <hi>In the fifth yeere of</hi> Joram <hi>the ſon of</hi> Ahab <hi>King of</hi> Iſ<g ref="char:EOLhyphen"/>rael, <hi>and of</hi> Jehoſhaph. <hi>King of</hi> Ju<g ref="char:EOLhyphen"/>dah.</note> 
+                           <hi>began to reigne in the fifth yeere of Jehoſha<g ref="char:EOLhyphen"/>phat,</hi> at the age of 32. yeeres. <hi>Or,</hi> from the time he firſt reigned in his fathers ab<g ref="char:EOLhyphen"/>ſence; and ſo he be<g ref="char:EOLhyphen"/>gan to reigne neere the end of the 18. yeere of <hi>Iehoſhaphat,</hi> 
+                           <note place="margin">2 Chr. 18. v. 2</note> 
+                           <hi>when Iehoſhaphat went down to ſee Ahab,</hi> &amp; <hi>in</hi> 
+                           <note place="margin">2 K. 1. v. 17.</note> 
+                           <hi>the</hi> beginning of the <hi>ſecond yeer</hi> after, <hi>Ieho<g ref="char:EOLhyphen"/>ram</hi> King of Iſrael <hi>began to reigne.</hi> Or, from the time he firſt reigned after his fa<g ref="char:EOLhyphen"/>thers
+<pb n="17" facs="tcp:50013:12"/> death; and ſo he began to reigne at the age of 52. yeeres <hi>in the fifth yeere of Ioram King of Iſrael,</hi> 
+                           <note place="margin">2 Ch. 8. v. 16.</note> and <hi>he reigned eight yeeres.</hi>
+                        </p>
+                        <p>Ahaziah, alias. <note place="margin">2 K. 8. v. 26. 2 Chr. 21. v. 17. &amp;c. 22. v. 2. 6.</note>
+                        </p>
+                        <p>Iehoahaz, alias</p>
+                        <p>Azariah, 1 yeere</p>
+                        <p>He <hi>was</hi> 22. <hi>yeeres.</hi> 
+                           <note place="margin">
+                              <hi>Ludovic. Lavater. in Paralip.</hi> 22. <hi>v.</hi> 2.</note> 
+                           <hi>old when he began to reign</hi> with his father: and <hi>was</hi> 42. <hi>yeeres old when he began to reign</hi> alone after his fa<g ref="char:EOLhyphen"/>thers death.</p>
+                        <pb n="18" facs="tcp:50013:13"/>
+                        <p> Athaliah the <note place="margin">2 King. 11. v. 3. 4 2 Chr. 22. v. 12.</note> Queene 6 yeeres</p>
+                        <p>She was ſlaine in <note place="margin">Compare 2 King 10. v. 36. with c. 13. v. 1. &amp;c. 11 v. 2 4. with v 24.</note> the beginning of <hi>the ſeventh yeere</hi> of her reigne.</p>
+                        <p>Ioaſh, alias Ie<g ref="char:EOLhyphen"/>hoaſh, <note place="margin">2 K. 12. v. 1 2 Chr. 24. v. 1.</note> 40 yeeres.</p>
+                        <p>Amaziah <note place="margin">2 K. 14 v. 2 2 Chr. 25. v. 1.</note> 29 yeeres.</p>
+                        <p>Vzziah alias <note place="margin">2 K. 15. v. 2. 2 Chr. 26. v. 3.</note>
+                        </p>
+                        <p>Azariah 52. yeers </p>
+                        <pb n="19" facs="tcp:50013:13"/>
+                        <p> Iotham <note place="margin">2 K. 15. v. 33 2 Chr. 27. v. 1. 8.</note> 16 yeeres.</p>
+                        <p>Ahaz <note place="margin">2 K. 16. v. 2. 2 Chr. 28. verſ. 1.</note> 16 yeeres.</p>
+                        <p>Hezekiah <note place="margin">2 K. 18. v. 2. 2 Chr. 29. verſ. 1.</note> 29 yeeres.</p>
+                     </div>
+                     <div type="part">
+                        <pb n="15" facs="tcp:50013:11"/>
+                        <head>Kings of Iſrael.</head>
+                        <p>
+                           <hi>Ieroboam</hi> 21. yeers <note place="margin">1 King. 14. v. 20.</note>
+                        </p>
+                        <p>
+                           <hi>Nadab</hi> 1. yeere. <note place="margin">C 15. v. 25.</note>
+                        </p>
+                        <p>
+                           <hi>Baaſha</hi> 23. yeeres <note place="margin">Verſe 33.</note>
+                        </p>
+                        <p>
+                           <hi>He began to reigne in the</hi> beginning of the <hi>third of Aſa.</hi>
+                        </p>
+                        <p>
+                           <hi>Elah</hi> 1. yeere. <note place="margin">C. 16. v. 8.</note>
+                        </p>
+                        <p>
+                           <hi>Zimri</hi> 7. dayes. <note place="margin">Verſe 15.</note>
+                        </p>
+                        <p>
+                           <hi>Omri</hi> 11. yeeres. <note place="margin">Verſe 23.</note>
+                        </p>
+                        <p>
+                           <hi>He began to reigne in the</hi> beginning of <note place="margin">Verſe 15. 16. 23.</note> the 27. <hi>of Aſa,</hi> though he was not fully con<g ref="char:EOLhyphen"/>firmed till the death of <hi>Tibni</hi> in the 31. of <hi>Aſa.</hi>
+                        </p>
+                        <p>
+                           <hi>Ahab</hi> 21. yeeres. <note place="margin">Verſe 29</note>
+                        </p>
+                        <p>In the end of his <note place="margin">C. 20. v. 1. 22. 26. C. 22. v. 1. 2. 4. 29. 34. 37.</note> 17. and of his 18. yeere, <hi>he ſmote Benha<g ref="char:EOLhyphen"/>dad</hi>
+                           <pb n="16" facs="tcp:50013:12"/> 
+                           <hi>King of Syria.</hi> Af<g ref="char:EOLhyphen"/>terwards they <hi>conti<g ref="char:EOLhyphen"/>nued three yeeres with<g ref="char:EOLhyphen"/>out warre;</hi> but in the third yeer <hi>Iehoſhaphat</hi> (leaving his ſonne <hi>Iehoram</hi> King in his abſence) came to vi<g ref="char:EOLhyphen"/>ſit him. And in the end of that yeere <hi>A<g ref="char:EOLhyphen"/>hab</hi> with <hi>Iehoſhaphat</hi> went againſt <hi>Ramoth Gilead,</hi> and was there ſlaine.</p>
+                        <p>
+                           <hi>Ahaziah</hi> 2. yeers <note place="margin">1 King 22. v. 51.</note>
+                        </p>
+                        <p>
+                           <hi>Jehoram</hi> alias</p>
+                        <p>
+                           <hi>Ioram</hi> 
+                           <note n="*" place="margin">2 King 9. v. 14.</note> 15. yeers.</p>
+                        <p>He <hi>began to reigne</hi> 
+                           <note place="margin">C. 3. v. 1.</note> neere the end of the 19. (but in the 18. <note place="margin">Verſ. 24. 25. C. 6. v. 8. 23</note> compleat) <hi>of Iehoſha<g ref="char:EOLhyphen"/>phat,</hi> but he was not confirmed in his Kingdome till he o<g ref="char:EOLhyphen"/>vercame the rebel<g ref="char:EOLhyphen"/>ling <hi>Moabites,</hi> and ſent away the <hi>Syri<g ref="char:EOLhyphen"/>ans,</hi> which was three yeeres after; And
+<pb n="17" facs="tcp:50013:12"/> then he reigned 12. yeeres.</p>
+                        <p>Neere the end of <note place="margin">2 King 8 v. 16.</note> his ſixth yeere (but <hi>in the fifth</hi> compleat) <hi>Ie<g ref="char:EOLhyphen"/>horam King of Iudah</hi> after his fathers death <hi>began to reigne.</hi> And <hi>in the</hi> end of his <note place="margin">Verſe 25. C. 9. v. 29.</note> 11. <hi>yeere,</hi> or <hi>in the</hi> be<g ref="char:EOLhyphen"/>ginning of his 12. af<g ref="char:EOLhyphen"/>ter he was confirmed in the Kingdome, <hi>A<g ref="char:EOLhyphen"/>haziah King of Iudah began to reigne.</hi>
+                        </p>
+                        <p>
+                           <hi>Iehu</hi> 28. yeeres. <note place="margin">C. 10 v. 36</note>
+                        </p>
+                        <p>
+                           <hi>Iehoahaz</hi> 16. yeers <note place="margin">C. 13. v. 1.</note>
+                        </p>
+                        <p>
+                           <hi>He began to reign in the</hi> beginning of the 23. <hi>yeere of Ioaſh King of Iudah.</hi>
+                        </p>
+                        <p>
+                           <hi>Note,</hi> That the laſt yeere of <hi>Ieroboam, Na<g ref="char:EOLhyphen"/>dab, Baaſha, Elah, Omri Ahab,</hi> and <hi>Iehoahaz</hi> is not accompted, be<g ref="char:EOLhyphen"/>cauſe they were ſlain or died in the begin<g ref="char:EOLhyphen"/>ning of the yeere, as
+<pb n="18" facs="tcp:50013:13"/> may appear by com<g ref="char:EOLhyphen"/>paring with the yeers of the Kings of <hi>Iudah</hi>
+                        </p>
+                        <p>
+                           <hi>Ioaſh</hi> 16. yeeres. <note place="margin">2 King. 13. v. 10.</note>
+                        </p>
+                        <p>
+                           <hi>He began to reigne</hi> neere the end of the 28. (but <hi>in the</hi> 27. compleat) <hi>of Joaſh King of Judah.</hi>
+                        </p>
+                        <p>
+                           <hi>Ieroboam</hi> 41. yeers <note place="margin">C. 14. v. 23</note>
+                        </p>
+                        <p>In the beginning of <note place="margin">C. 15. v. 1.</note> his 16. (but <hi>in his</hi> 27. <hi>yeere,</hi> accompting the 11. yeeres which <hi>Je<g ref="char:EOLhyphen"/>roboam</hi> reigned with his father) <hi>began Aza<g ref="char:EOLhyphen"/>riah King of Judah to reigne.</hi>
+                        </p>
+                        <p>From the begin<g ref="char:EOLhyphen"/>ning of the 27. of <hi>A<g ref="char:EOLhyphen"/>zariah</hi> 
+                           <note place="margin">Compare c. 14 v. 23. with c. 15. verſ. 8.</note> King of <hi>Iudah</hi> to the end of the 38. was 1<gap reason="illegible" resp="#MURP" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>. yeeres, there was a <hi>Vacancy</hi> in the Kingdome of <hi>Iſrael.</hi>
+                        </p>
+                        <p>
+                           <hi>Zachariah</hi> 
+                           <note place="margin">Verſe <hi>d.</hi>
+                           </note> 6. moneths.</p>
+                        <p>
+                           <hi>He began to reign in the very</hi> end of the 38. <hi>of Azariah.</hi>
+                        </p>
+                        <pb n="19" facs="tcp:50013:13"/>
+                        <p> 
+                           <hi>Shallum</hi> 1. moneth.</p>
+                        <p>
+                           <hi>Menahem</hi> 10. yeeres and <note place="margin">Verſe 13.</note> 5. moneths.</p>
+                        <p>
+                           <hi>Pekahiah</hi> 2. yeeres. <note place="margin">Compare v. 17. with verſ. 23.</note>
+                        </p>
+                        <p>
+                           <hi>P<gap reason="illegible" resp="#MURP" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>k<gap reason="illegible" resp="#MURP" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>h</hi> 20. yeeres.</p>
+                        <p>
+                           <hi>He began to reign in the</hi> be<g ref="char:EOLhyphen"/>ginning <note place="margin">2 King. 15. verſ. 27.</note> of the 52. <hi>of Azariah</hi>
+                        </p>
+                        <p>
+                           <hi>Hoſhea</hi> 19. yeeres.</p>
+                        <p>He began to reign in the beginning of the fourth yeer <note place="margin">Verſe 30.</note> of <hi>Ahaz</hi> K. of <hi>Iudah,</hi> which was the beginning of <hi>the</hi> 20. <hi>after Iotham began.</hi> And in the end of the 13. (but <hi>in the</hi> 12. compleat) <hi>of Ahaz Hoſhea</hi> 
+                           <note place="margin">C. 17. v. 1.</note> was confirmed in his Kingd. After w<hi rend="sup">ch</hi> he reigned 9 yeers</p>
+                        <p>
+                           <hi>In the</hi> end of the <hi>third of Hoſhea began Hezekiah to reign</hi> 
+                           <note place="margin">C. 18. v. 1.</note>
+                        </p>
+                        <p>
+                           <hi>In the</hi> beginning of the 4. <hi>of Hezekiah (which was the</hi> be<g ref="char:EOLhyphen"/>ginning <note place="margin">Ver. 9. 10. C. 17 v. 6.</note> of the 7. <hi>of Hoſhea) Shalmaneſer King of Aſſyria came up againſt Samaria: and at the end of</hi> 3. <hi>yeers</hi> (w<hi rend="sup">ch</hi> was <hi>in the</hi> end of the 6. <hi>of Hezek.</hi> and of the <hi>ninth of Hoſhea) Samaria was taken.</hi>
+                        </p>
+                        <p>Here began the Captivity of <hi>Iſrael.</hi> 
+                           <note place="margin">Ver. 18. 21 23, 24.</note>
+                        </p>
+                     </div>
+                  </body>
+               </floatingText>
+               <pb n="20" facs="tcp:50013:14"/>
+               <p> 
+                  <hi>Note,</hi> that <hi>Iſrael was</hi> then <hi>carried away into Aſſyria,</hi> 
+                  <note place="margin">1 K. 17. v. 6. &amp;c. 18. v. 11.</note> 
+                  <hi>and placed in Halath, and in Habor, by the river of Go<g ref="char:EOLhyphen"/>zan, and in the Cities of the Medes;</hi> but 46. yeeres after, they were driven thence, diſperſed, and ſo broken, that they were <hi>not a people.</hi> As <hi>Iſaiah</hi> fore<g ref="char:EOLhyphen"/>told in the third yeere of <hi>Ahaz King of Iudah,</hi> which <note place="margin">Iſa. 7. v. 1. 8.</note> was <hi>three ſcore and five yeeres</hi> before it came to paſſe.</p>
+               <p>Manaſſeh 55 yeeres. <note place="margin">2 K. 22. v. 1. 2 Chr. 33 v. 1.</note>
+               </p>
+               <p>Amon 2 yeeres. <note place="margin">2 K. 21 v 19. 2 Chr. 34 v. 21</note>
+               </p>
+               <p>Ioſiah 31 yeeres. <note place="margin">2 K. 21. v 1. 2 Chr. 33. v. 1.</note>
+               </p>
+               <p>Iehoahaz, alias Iohanan, alias Shallum, <note place="margin">2 K. 23. v 31. 1 Chr. 3. v 15. 2 Chr. 36. v 2. Jer. 22. v. 11. Comp. 2 Chr. 36. v. 2. with v 5.</note> 3 moneths.</p>
+               <p>He is called <hi>the firſt borne,</hi> becauſe he firſt ſuc<g ref="char:EOLhyphen"/>ceeded in the Kingdome: but his brother <hi>Iehoiakim</hi> was the elder by two yeeres.</p>
+               <p>Iehoiakim, alias Ioakim, alias Eliakim, <note place="margin">2 K. 23. v 34. 36 1 Chr. 3. v. 15. 2 Chr. 36. v. 4, 5</note> 11 yeeres.</p>
+               <p>Under <hi>Pharaoh Nechoh</hi> he reigned eight yeeres, <note place="margin">2 K. 23. v 34. 35 &amp;c. 24. v. 1. Dan. 1. v. 1, 2. <hi>Joſeph. Antiqu. l.</hi> 10. <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>. <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>.</note> and under <hi>Nebuchadnez zar</hi> three yeeres, but <hi>in the</hi> ſaid <hi>third yeere</hi> (which was the eleventh yeere of his reigne in <hi>Ieruſalem) he rebelled and the Lord gave him</hi>
+                  <pb n="21" facs="tcp:50013:14"/> 
+                  <hi>into the hand of Nebuchadnezzar.</hi> 
+                  <note place="margin">2 K. 24. v. 8.</note>
+               </p>
+               <p>Iehoiachin, alias Ieconiah, alias Coni<g ref="char:EOLhyphen"/>ah, <note place="margin">1 Chr. 3. v. 16. 2 Chr. 36. v. 9. Jer. 22. v 24. &amp;c. 37. v. 1.</note> 3 moneths and 10 dayes.</p>
+               <p>To wit <hi>three moneths and ten dayes</hi> alone after his <note place="margin">Comment. vulg. in 2 Chr. 36. v. 9.</note> fathers death, being then <hi>at the age of eighteene:</hi> But with his father he reigned ten yeeres before, and <hi>began his reigne at eight yeeres old.</hi>
+               </p>
+               <p>Note, that the Scriptures expreſſe <hi>Iehoiachins</hi> 
+                  <note place="margin">Jer. 52. v. 28.</note> Captivity to be <hi>in the ſeventh yeere compleat of Ne<g ref="char:EOLhyphen"/>buchadnezzars reigne:</hi> or, <hi>when the ſeventh yeere was</hi> 
+                  <note place="margin">2 Chr. 36. v. 10</note> 
+                  <hi>expired:</hi> or, <hi>in the</hi> beginning of his <hi>eighth</hi> yeere. All <note place="margin">2 K. 24. v. 12.</note> which point at one and the ſame time.</p>
+               <p>From his Captivity the Prophet <hi>Ezekiel</hi> takes his <note place="margin">Ezek. 1. v. 2. &amp;c. 8. 20. 24. 26. 29. 31. 32. 40. v. 1. Ezek. 1. v. 1, 2. 2 K. 22. v. 3, 8.</note> accompt.</p>
+               <p>
+                  <hi>The fifth yeere of his Captivity</hi> was <hi>the thirtieth yeere</hi> after the finding <hi>of the booke of the Law, in the eighteenth of King Ioſiah.</hi>
+               </p>
+               <p>Zedekiah, alias Mattaniah, 11 yeers. <note place="margin">2 K. 24. v. 17. 18. 2 Chr 36 v. 11. Jer. 52. v. 1. Jer. 37 v. 1. <hi>Jun.</hi> &amp; <hi>Trem. in</hi> 1 Chr. 3. v. 16.</note>
+               </p>
+               <p>He is called <hi>the ſonne of Ieconiah,</hi> not by nature, for he was his Unkle; but by ſucceſſion in the go<g ref="char:EOLhyphen"/>vernment.</p>
+               <p>So <hi>Ahab</hi> was ſonne to <hi>Baaſha,</hi> 1 <hi>King.</hi> 20. <hi>v.</hi> 34. <note place="margin">
+                     <hi>Broughtons Ad<g ref="char:EOLhyphen"/>vertiſement. pag.</hi> 51. 59. 61.</note> compared with <hi>c.</hi> 15. <hi>v.</hi> 19, 20. So <hi>Salathiel</hi> was ſonne to <hi>Jeconiah,</hi> 1 <hi>Chr.</hi> 3. <hi>v.</hi> 17. <hi>Matth.</hi> 1. <hi>v.</hi> 12.</p>
+               <p>From the revolt of <hi>Ieroboam</hi> unto the ſiege of <hi>Ie<g ref="char:EOLhyphen"/>ruſalem,</hi> in the ninth yeere of <hi>Zedekiah,</hi> are 390. <note place="margin">2 K. 25. v. <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>.</note>
+                  <pb n="22" facs="tcp:50013:15"/> yeers: which were <hi>the yeeres of the iniquity of the houſe</hi> 
+                  <note place="margin">Ezek. 4. v. 5.</note> 
+                  <hi>of Iſrael;</hi> for ſome of the Iſraelites who were mix<g ref="char:EOLhyphen"/>ed with the Tribe of <hi>Judah,</hi> remained untill this time.</p>
+               <p>In the end of his reigne <hi>Jeruſalem</hi> was taken. <note place="margin">2 K. 25. v. 2. 3. 8.</note>
+               </p>
+               <p>Here began the Captivity of <hi>Judah</hi> 
+                  <note place="margin">2 K. 25. v. 4. to v. 22. 2 Chron. 36. v. 17. to v. 21. Jer. 1. v. 3. &amp;c. 52. v. 27.</note> (commonly called the Captivity of <hi>Babylon)</hi> with the utter deſtru<g ref="char:EOLhyphen"/>ction of <hi>Ieruſalem.</hi>
+               </p>
+               <p>
+                  <hi>The ſaid times accompted are</hi> 430 <hi>yeeres and</hi> 10 <hi>dayes.</hi>
+               </p>
+               <div type="section">
+                  <head>Reaſons why it cannot be admitted that the Captivity of <hi>Judah</hi> (alias the 70 yeeres Captivity) began in the third yeere of <hi>Iehoiakim.</hi>
+                  </head>
+                  <p>
+                     <hi>Firſt,</hi> becauſe <hi>the fourth yeere of Iehoiakim was the firſt yeere of Nebuchadnezzar;</hi> How then could <hi>Nebu<g ref="char:EOLhyphen"/>chadnezzar</hi> 
+                     <note place="margin">Jer. 25 v. 1.</note> come up in the third of <hi>Iehoiakim?</hi> And to ſay that <hi>Nebuchadnezzar</hi> began to reign and came up in the end of the third of <hi>Iehoiakim,</hi> is contrary to the Text alleadged, and alſo againſt reaſon; For what man can imagine, that <hi>Nebuchadnezzar</hi> ſhould receive his Crowne, raiſe immediately a mighty
+<pb n="23" facs="tcp:50013:15"/> hoſt, ſubdue all <hi>Syria,</hi> march afterwards with an <note place="margin">
+                        <hi>Joſeph. Antiqu. l.</hi> 10. <hi>c.</hi> 7.</note> Army into <hi>Iudea:</hi> (which is neere 400. miles from <hi>Babylon)</hi> the very ſight whereof cauſed <hi>Iehoiakim to become his ſervant,</hi> and all this to be done in the ve<g ref="char:EOLhyphen"/>ry <note place="margin">2 K. 24. v. 1.</note> end of the third of <hi>Iehoiakim?</hi>
+                  </p>
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="2"/> Secondly, becauſe it is grounded upon nothing but figments and falſities. As, that <hi>Jehoiakim</hi> was <note place="margin">See <hi>Broughtons</hi> conſent of Scriptures. <hi>Mores</hi> Tables.</note> carried <hi>to Babylon,</hi> and ſent home againe <note n="*" place="margin">Read Jer. 22. v. 18. 19.</note>: That <hi>Daniel</hi> and the reſt were carried away Captives in the firſt yeere of <hi>Nebuchadnezzar:</hi> That <hi>Jehoiakim</hi> rebelled againſt <hi>Nebuchadnezzar</hi> in the ſixth yeere of his reigne: That <hi>Nebuchadnezzar</hi> came not againſt him till five yeeres after: That the <hi>Chaldean</hi> King<g ref="char:EOLhyphen"/>dome continued but 70. yeeres; Which they ſeeke to wreſt from the words of <hi>Jeremiah,</hi> but in vaine; <note place="margin">Jer. 25.</note> for though in the fourth of <hi>Jehoiakim</hi> he prophe<g ref="char:EOLhyphen"/>ſieth of the juſt continuance of the <hi>Chaldean</hi> King<g ref="char:EOLhyphen"/>dome untill the end of the 70. yeeres Captivity, yet he ſaith not that the 70. yeeres Captivity began in the fourth of <hi>Jehoiakim:</hi> for the Scriptures declare that they began not till the end of the reigne of <hi>Ze<g ref="char:EOLhyphen"/>dekiah,</hi> which was eighteene yeeres after the ſaid prophecy.</p>
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="3"/> Thirdly, becauſe the Captivity of <hi>Jehoiakim,</hi> as alſo of his ſonne, was but a particular Captivity of ſome few, though (I grant) many Nobles were then carried away. But the Captivity of <hi>Judah,</hi> or the 70. yeeres Captivity, was not the Captivity of a few, or only of the chief, but of the whole Land of <hi>Judah;</hi> of Prince and people, with the utter de<g ref="char:EOLhyphen"/>ſtruction of <hi>Jeruſalem,</hi> in the end of the reigne of
+<pb n="24" facs="tcp:50013:16"/> 
+                     <hi>Zedekiah.</hi> Of this Captivity it is ſaid. <hi>So</hi> Iudah <note place="margin">2 K. 25. v. 21.</note> was carried away <hi>out of their Land. And Je<g ref="char:EOLhyphen"/>hozadak</hi> 
+                     <note place="margin">1 Chr. 6. v. 15. compared with 2 K. 25 v. 18.</note> 
+                     <hi>the ſonne of Seraiah</hi> went into Cap<g ref="char:EOLhyphen"/>tivity <hi>when the Lord</hi> carried away Iudah <hi>and Jeruſalem by the hand of Nebuchadnezzar. Thus</hi> Iudah <hi>was</hi> carried away Captive <hi>out</hi> 
+                     <note place="margin">Jer. 52. v. 27.</note> 
+                     <hi>of his owne Land.</hi> And <hi>the word of the Lord came un<g ref="char:EOLhyphen"/>to</hi> 
+                     <note place="margin">Jer. 1. v. 1, 2.</note> 
+                     <hi>Jeremiah in the dayes of Iehoiakim, unto the end of eleventh yeer of Zedekiah, unto the</hi> carrying a<g ref="char:EOLhyphen"/>way Ieruſalem Captive <hi>in the fifth moneth.</hi> What words can plainer expreſſe the time when the Captivity of <hi>Iudah</hi> began?</p>
+                  <p>
+                     <hi>Them that had eſcaped from the ſword</hi> carryed <note place="margin">2 Chr 36. v. 20. 21.</note> he away to Babylon: <hi>where they were ſer<g ref="char:EOLhyphen"/>vants to him and his ſons, untill the reigne of the King<g ref="char:EOLhyphen"/>dome of Perſia: to fulfill the word of the Lord by the mouth of Ieremiah, untill the Land had enjoyed her Sab<g ref="char:EOLhyphen"/>baths: for as long as ſhee lay deſolate, ſhe kept Sabbath, to fulfill</hi> three ſcore and tenne yeeres. See here the 70. yeeres deſolation muſt be fulfilled from this Captivity in the end of <hi>Zedekiah.</hi>
+                  </p>
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="4"/> Fourthly, becauſe if <hi>Jehoiakim</hi> were carried away captive in his third yeere, then muſt <hi>Jeconiah's</hi> Cap<g ref="char:EOLhyphen"/>tivity be in the ninth yeere of <hi>Nebuchadnezzar.</hi> For <note place="margin">
+                        <gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> Chr. 36. v. 59.</note> 
+                     <hi>Jehoiakim</hi> reigned eight yeeres after that, and his
+<pb n="25" facs="tcp:50013:16"/> ſonne <hi>Ieconiah</hi> three moneths and ten dayes: But this is contrary to the Scriptures; which ſay direct<g ref="char:EOLhyphen"/>ly, that <hi>Nebuchadnezzar tooke Iehoiachin, alias Ieco<g ref="char:EOLhyphen"/>niah,</hi> 
+                     <note place="margin">2 K. 24. v. 12.</note> 
+                     <hi>in the eighth yeere of his reigne.</hi> And <hi>Ieremiah</hi> ſaies, <hi>in the ſeventh yeere.</hi> 
+                     <note place="margin">Jer. 52. v. 28.</note>
+                  </p>
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="5"/> Fifthly, becauſe in the laſt chapter of <hi>Ieremiah,</hi> where the ſeverall Captivities are reckoned up, there <note place="margin">Jer. 52. v. 28 29, 30.</note> is no notice taken of the Captivity of <hi>Iehoiakim,</hi> nor of the Captives at that time carried to <hi>Babylon,</hi> be<g ref="char:EOLhyphen"/>ing none but a few children choſen out of <hi>cer<g ref="char:EOLhyphen"/>taine of the children of Iſrael, and of the Kings ſeed,</hi> 
+                     <note place="margin">Dan. 1. v. 3. 4</note> 
+                     <hi>and of the Princes, ſuch as had ability in them to ſtand in the Kings Palace, and whom they might teach the learning and the tongue of the Chaldeans.</hi> Whereas the Captivity of <hi>Zedekiah</hi> is there, and alſo in the 39. Chapter, and in the latter booke of the Kings and Chronicles largely related, as being the grand and moſt remarkable Captivity, <hi>The Captivity of Iudah.</hi>
+                  </p>
+               </div>
+            </div>
+            <div type="part">
+               <head>From the beginning of the Capti<g ref="char:EOLhyphen"/>vity of <hi>Babylon</hi> unto the Comman<g ref="char:EOLhyphen"/>dement to reſtore and to build <hi>Jeru<g ref="char:EOLhyphen"/>ſalem</hi> againe, are 152. yeeres.</head>
+               <p>
+                  <hi>FOR,</hi> 
+                  <note place="margin">2 Chr. 36. v. 21 Jer 25. v. 11 &amp;c. 29. v. 10. Dan. 9. v. 2.</note>
+               </p>
+               <p>The Captivity continued 70 yeeres.</p>
+               <p>The next yeere after, being the <hi>firſt</hi> yeere of
+<pb n="26" facs="tcp:50013:17"/> King Cyrus, <hi>Iſrael</hi> returned from Captivity. <note place="margin">Ezra 1. v. 1</note>
+               </p>
+               <p>They began to build the Temple in the <hi>ſecond</hi> 
+                  <note place="margin">Ezra 3. v. 8.</note> yeere of the ſaid Cyrus, And it was finiſhed in 29 yeeres after, <hi>which was the ſixth yeere of King Darius,</hi> the ſon of <hi>Hyſtaſpes.</hi> 
+                  <note place="margin">C. 6. v. 15.</note>
+               </p>
+               <p>Of this Temple it was prophecied, that <hi>the glory</hi> thereof ſhould <hi>be greater then of the former;</hi> w<hi rend="sup">ch</hi> was, <note place="margin">Hag. 2. v 9.</note> not in reſpect of the beauty in building, but becauſe of the preſence of the Meſsiah, our Saviour, who <note place="margin">John 18. v 20.</note> ſhould teach therein.</p>
+               <p>Artaxerxes <hi>in</hi> the end of <hi>his ſeventh yeer,</hi> which <note place="margin">Ezra 7. v. 8. 11</note> was 52 yeeres <hi>after</hi> the finiſhing of the Temple, ſent <hi>Ezra,</hi> and gave him <hi>Commiſsion to reſtore and to build</hi> Jeruſalem <hi>againe.</hi>
+               </p>
+               <p>Here began the 70. weeks revealed by the Angel <hi>Gabriel</hi> unto <hi>Daniel.</hi> 
+                  <note place="margin">Dan. 9. v. 21. 24</note>
+               </p>
+               <p>
+                  <hi>The ſaid times accompted are</hi> 152 <hi>yeeres.</hi>
+               </p>
+               <div type="section">
+                  <head>Reaſons why it cannot be admitted that <hi>Daniels</hi> 70. weeks ſhould be ac<g ref="char:EOLhyphen"/>compted from the firſt yeere of King <hi>Cyrus.</hi>
+                  </head>
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="1"/> The one is, becauſe the Angel ſaith expreſſely,
+<pb n="27" facs="tcp:50013:17"/> that the 70. <hi>weeks</hi> muſt be accompted <hi>from the go<g ref="char:EOLhyphen"/>ing forth of the Commandement</hi> to reſtore and <note place="margin">Dan. 9. v. 25.</note> to build <hi>Jeruſalem:</hi> which Commandement was not given forth by <hi>Cyrus;</hi> for the Commiſſi<g ref="char:EOLhyphen"/>on of <hi>Cyrus</hi> (twice rehearſed by <hi>Ezra)</hi> was onely <note place="margin">Ezra. 1. &amp; 6.</note> 
+                     <hi>to build the Temple.</hi> And though it be alſo true, that <hi>Cyrus</hi> gave Commandement <hi>to build Jeruſalem,</hi> yet <note place="margin">Eſa. 44. v. 28. &amp;c. 45. v. 13.</note> he gave not Commandement <hi>to reſtore Jeruſalem:</hi> Whereas that Commandement which the Angel ſpake of, was both <hi>to reſtore and to build Jeruſalem.</hi> This was given forth by <hi>Artaxerxes in the ſeventh</hi> 
+                     <note place="margin">Ezra 7. v. 11.</note> 
+                     <hi>yeere of his reigne;</hi> As may be ſeene by the tenour of <hi>Ezra</hi> his Commiſſion. For <hi>Ieruſalem</hi> was then <hi>re<g ref="char:EOLhyphen"/>ſtored</hi> when the Lawes were taught, and Religion eſtabliſhed: and it was then <hi>built,</hi> when <hi>Magiſtrates and Iudges</hi> were ſet therein. Without Religion <hi>Ie<g ref="char:EOLhyphen"/>ruſalem</hi> could not be reſtored: without Magiſtrates it could not be called a City. To ſettle both theſe, <hi>Ezra</hi> onely received authority and had <hi>Commande<g ref="char:EOLhyphen"/>ment.</hi>
+                  </p>
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="2"/> The other reaſon is, becauſe the Aſſertors of this opinion, when they come to particulars, doe groſſe<g ref="char:EOLhyphen"/>ly rend in ſunder all Hiſtories, eſpecially of the <hi>Per<g ref="char:EOLhyphen"/>ſian Monarchy;</hi> and are forced to build on their own phanſies. As, That <hi>Cyrus</hi> after he took <hi>Bahel,</hi> 
+                     <note place="margin">
+                        <hi>Broughtons Ad<g ref="char:EOLhyphen"/>vertiſement of corruption, pag.</hi> 11. See Mr. <hi>Mores</hi> Tables.</note> reigned but three yeeres: <hi>Cambyſes</hi> after his fathers death foure: But Mr. <hi>More</hi> will have it that <hi>Camby<g ref="char:EOLhyphen"/>ſes</hi> reigned with his father ſixe yeeres, and one after his fathers death. Both alike true. For if <hi>Cyrus</hi> and <hi>Cambyſes</hi> reigned ſo ſhort a time, how could <hi>Camby<g ref="char:EOLhyphen"/>ſes,</hi>
+                     <pb n="28" facs="tcp:50013:18"/> 
+                     <hi>the Prince of the Kingdome of Perſia,</hi> withſtand <note place="margin">Dan. 10. v. 13. compared with v. 1.</note> the building of the Temple 21. yeeres, as the Scrip<g ref="char:EOLhyphen"/>tures affirme; and are ſo underſtood even by Mr. <hi>Broughton</hi> himſelfe? <note place="margin">Broughton ibid.</note>
+                  </p>
+                  <p>That <hi>Darius</hi> the ſonne of <hi>Hyſtaſpes</hi> (ſirnamed <hi>A<g ref="char:EOLhyphen"/>haſuerus) hindered the building of the Temple;</hi> who <note place="margin">See <hi>Broughtons</hi> conſent of Scripture, <hi>Anno Mun.</hi> 3560. And Mr. <hi>Mores</hi> Tables.</note> is generally acknowledged to be the finiſher <note n="*" place="margin">
+                        <hi>Joſeph. An<g ref="char:EOLhyphen"/>tiqu l.</hi> 11 <hi>c.</hi> 4. <hi>Func. fol.</hi> 65. <hi>Bucholz. pag.</hi> 34 Sir <hi>W Ral Hiſt. l.</hi> 3. <hi>c.</hi> 5. <hi>Sect.</hi> 3. Ezra 4. v. 6.</note> ther<g ref="char:EOLhyphen"/>of: and whoſe great favour and liberality unto the Jewes is not onely ſet forth in the Book ef <hi>Eſther,</hi> but alſo in prophane hiſtories. And though it be true, that <hi>in the beginning of the reigne of Ahaſuerus they wrote an accuſation againſt the inhabitants of Iudah and Ieruſalem:</hi> yet this accuſation was ſo farre from hindering the building of the Temple, that it pro<g ref="char:EOLhyphen"/>cured from <hi>Darius,</hi> alias <hi>Ahaſuerus,</hi> a Decree for the ſpeedy finiſhing thereof. <note place="margin">C. 6. v 1. unto v. 13.</note>
+                  </p>
+                  <p>That <hi>Artaxerxes,</hi> mentioned in the ſeventh of <hi>Ezra,</hi> was the ſame <hi>Darius</hi> mentioned before in the <note place="margin">Broughtens Ad<g ref="char:EOLhyphen"/>vertiſement; and Conſent.</note> ſixth chapter, in whoſe reigne the Temple was fini<g ref="char:EOLhyphen"/>ſhed. But this cannot be. For <hi>Ezra</hi> ending his ſto<g ref="char:EOLhyphen"/>ry of <hi>Darius</hi> in the ſixth chapter begins his ſeventh thus: <hi>Now after theſe things in the reigne of Artax<g ref="char:EOLhyphen"/>erxes King of Perſia, &amp;c.</hi> Which words ſhew plain<g ref="char:EOLhyphen"/>ly that he ſpake of another King, and of things done long after <hi>Darius.</hi> Beſides, in the ſeventh yeere of <hi>Artaxerxes, Ezra</hi> had Commiſſion <hi>to ſet Magiſtrates</hi> 
+                     <note place="margin">Ezra 7. v. 8. 25.</note> 
+                     <hi>and Iudges over the people,</hi> which could not be the next yeere after the finiſhing of the Temple, unleſſe we will ſuppoſe that <hi>Zerubbabel</hi> the Governour, and <note place="margin">Hag. 1. v. 1. Zech 4. v. 6.</note> 
+                     <hi>Ieſhua</hi> the High-Prieſt, and the other Magiſtrates, did all die together on a ſudden, as ſoon as the Tem<g ref="char:EOLhyphen"/>ple was finiſhed.</p>
+                  <pb n="29" facs="tcp:50013:18"/>
+                  <p> That <hi>Xerxes hindered the building of the Temple;</hi> 
+                     <note place="margin">
+                        <hi>Broughtons Ad<g ref="char:EOLhyphen"/>vertiſement pag.</hi> 12. 13.</note> That <hi>Artaxerxes Longimanus was brother to Xerxes;</hi> whom all Hiſtories with one conſent declare to be his ſonne: That he reigned but 36. <hi>yeeres:</hi> that <hi>Ar<g ref="char:EOLhyphen"/>taxerxes</hi> 
+                     <note place="margin">
+                        <hi>Mores</hi> Tables.</note> 
+                     <hi>Mnemon</hi> reigned 11. <hi>yeeres with his father, and</hi> 10. <hi>alone;</hi> and infinite ſuch like abſurdities.</p>
+                  <p>Neither can they excuſe themſelves, becauſe of the diverſity of Writers touching the time of theſe Kings. For the beſt and ſoundeſt Writers doe not differ: <hi>and that which is, and hath from time to time beene generally received, muſt be taken for truth.</hi> But <note place="margin">
+                        <hi>Vincent. Ler. contra Haereſ. c.</hi> 3.</note> theſe follow none at all, and cannot ſo much as find one pur-blind Author to countenance their inventi<g ref="char:EOLhyphen"/>ons. And therefore they doe cautiouſly omit the particular accompt of <hi>Daniels</hi> 70. weeks.</p>
+                  <p>
+                     <label type="milestone">
+                        <seg type="milestoneunit">An Object. </seg>
+                     </label> But Mr. <hi>More</hi> tels us, that <hi>Daniels</hi> 70. <hi>weeks muſt needs begin at the very end of their</hi> 70. <hi>yeeres captivi<g ref="char:EOLhyphen"/>ty,</hi> 
+                     <note place="margin">
+                        <hi>Mores</hi> Tables. <hi>pag.</hi> 94, 95.</note> 
+                     <hi>or elſe the analogie of their</hi> 70. <hi>yeeres captivity, and</hi> 7. <hi>times</hi> 70. <hi>yeeres liberty, could not ſtand: and alſo the comfort were not ſo forcibly brought by the Angel, if there were any meane time betweene the end of their captivity, and the beginning of their liberty.</hi>
+                  </p>
+                  <p>
+                     <label type="milestone">
+                        <seg type="milestoneunit">Reſolved. </seg>
+                     </label> To reſolve this, we muſt know, that <hi>An analogy is a proportion, ſimilitude, or reſemblance, which one thing hath unto another.</hi> Now that any intervenient time can deſtroy an analogie, is a meere paradoxe. For in matter of proportion and ſimilitude, neither time nor place are conſiderable. Betweene the Paſ<g ref="char:EOLhyphen"/>chall <note place="margin">Exod. 12. v. 3. 21. Luke 23. v. 33.</note> Lamb in the firſt Paſſeover, and the paſſion of Chriſt the Lamb of God, there was a true analogy: yet there interceded 1552. yeeres. Betweene the
+<pb n="30" facs="tcp:50013:19"/> lifting up of the Serpent in the Wilderneſſe, and the lifting up of the Sonne of man, there was a true <note place="margin">Numb. 21. v. 9. John 3. v. 14.</note> analogy: yet there interceded 1512. yeeres. Be<g ref="char:EOLhyphen"/>tweene <hi>Jonas</hi> his being three dayes and three nights <note place="margin">Jona 1. v. 17. Matth. 12. v. 40</note> in the Whales belly, and the Sonne of man his be<g ref="char:EOLhyphen"/>ing three dayes and three nights in the heart of the earth, there was a true analogy: yet there interceded about 820. yeers. Between Chriſts ſuffering, and the ſignes now adminiſtred in the Lords ſupper, there is a true analogy: yet the time ſince He ſuffered is more then 1600. yeeres. <hi>Therefore</hi> it is manifeſt, that the analogy betweene <hi>Judah's</hi> 70. yeeres Captivi<g ref="char:EOLhyphen"/>ty and <hi>Daniel's</hi> 70. weekes may well ſtand, though the weeks doe not immediately begin in the end of the Captivity.</p>
+                  <p>Nor does any meane time betweene the Jewes Captivity, and their liberty, diminiſh the comfort thereof more then the 46. yeeres till the Iſraelites were peaceably poſſeſſed of the Land of <hi>Canaan,</hi> di<g ref="char:EOLhyphen"/>miniſhed their comfort of being freed from <hi>Egypt</hi> the houſe of bondage.</p>
+               </div>
+            </div>
+            <div type="part">
+               <head>From the commandement to reſtore and to build <hi>Jeruſalem</hi> againe, unto the death and paſsion of our Lord and Saviour JESUS CHRIST, are 490. yeeres.</head>
+               <p>
+                  <hi>FOR,</hi>
+               </p>
+               <p>It is expreſſely declared unto <hi>Daniel, that from</hi> 
+                  <note place="margin">Dan. 9 v. 25.</note>
+                  <pb n="31" facs="tcp:50013:19"/> 
+                  <hi>the going forth of the Commandement to reſtore, and to build Jeruſalem, unto the</hi> Meſsiah, The Prince, <hi>ſhall be</hi> 7 <hi>weeks</hi> (ſo long it was before the Reformation could be fully perfected &amp; Religion e<g ref="char:EOLhyphen"/>ſtabliſhed) <hi>and</hi> 62 <hi>weeks</hi> (which make 69. weeks) <hi>and</hi> 
+                  <note place="margin">Verſe 26. 27.</note> 
+                  <hi>after</hi> 62. <hi>weeks,</hi> in the week following (which added to the ſaid 69. maketh full 70. weeks) <hi>ſhall</hi> Meſ<g ref="char:EOLhyphen"/>ſiah <note place="margin">So Numb. 14. v. 34. So Ezek. 4. v. 5, 6. So Dan. 10. v 13 So Revel. 2. v. 10.</note> 
+                  <hi>be cut off, and He ſhall confirme the Covenant, &amp;c.</hi> Now accompting each day for a yeere (as the Scriptures doe frequently) 70. weeks do amount unto 490 yeeres.</p>
+               <p>The full time from the Creation of <hi>Adam,</hi> unto the death and paſ<g ref="char:EOLhyphen"/>ſion <note place="margin">Which <hi>Ezek.</hi> might happily intend by 4000 Cubites c. 47. v. 3, 4, 5.</note> of our Lord and Saviour IESUS CHRIST, is 4000 yeeres and 10 dayes.</p>
+            </div>
+         </div>
+         <div type="text">
+            <pb n="32" facs="tcp:50013:20"/>
+            <p> A particular proofe of the times from the beginning of the Cap<g ref="char:EOLhyphen"/>tivity of <hi>Babylon</hi> unto the death and paſsion of our bleſſed Saviour IESUS CHRIST, whereby the former computation, as alſo many places of the Scriptures, are cleared.</p>
+            <div type="part">
+               <head>The firſt Monarch of Babylon.</head>
+               <p>Nebuchadnezzar reigned 45 yeeres. <note place="margin">Comp. 2 K. 24. v 12. with c. 25 v. 27. Jer. 25. v. 1.</note>
+               </p>
+               <p>He began to reigne <hi>in the</hi> end of the <hi>fourth yeere of Jehoiakim King of Judah.</hi>
+               </p>
+               <p>In the beginning of his tenth yeere, which was <note place="margin">2 K. 24. v 7. Dan. 2. v. 1. 28. 36. <hi>Joſeph. Antiqu. l.</hi> 10 <hi>c</hi> 7 &amp;. 11.</note> 
+                  <hi>the ſecond yeere of his reigne,</hi> after he vanquiſhed <hi>Pharaoh Nechoh,</hi> Daniel told and expounded his dreame.</p>
+               <p>The Captivity of the Jewes began in the begin<g ref="char:EOLhyphen"/>ning <note place="margin">2 K. 25 v. 8. Jer. 52 v. 12. 27</note> of the <hi>nineteenth yeere</hi> of his reigne; or, as it is, <hi>Ier.</hi> 52. <hi>v.</hi> 29. <hi>in the</hi> end of the <hi>eighteenth yeere.</hi>
+               </p>
+               <p>From the finding of <hi>the booke of the Law in the</hi> 
+                  <note place="margin">2 K. 22. v. 3. 8.</note> 18. <hi>of Ioſiah,</hi> unto the laſt carrying away of the Jewes into Captivity <hi>in the three and twentieth yeere</hi> 
+                  <note place="margin">Jer. 52. v. 30.</note> 
+                  <hi>of Nebuchadnezzar,</hi> are 40. yeeres; which was the <note place="margin">Ezek 4. v. 6.</note> time of <hi>the iniquity of the houſe of Iudah.</hi>
+               </p>
+               <pb n="33" facs="tcp:50013:20"/>
+               <p> Evilmerodach reigned 30 yeeres. <note place="margin">
+                     <hi>Melancthon. l.</hi> 2. <hi>Chron. de</hi> 1. <hi>Mo<g ref="char:EOLhyphen"/>narch pag.</hi> 165. <hi>Sleidan. l.</hi> 1.</note>
+               </p>
+               <p>Belſhazzar in the beginning of his foureteenth yeere was ſlaine; ſo that he reigned but 13 yeeres compleat.</p>
+               <p>Of theſe three <hi>Ieremiah</hi> ſpeaks, <hi>c.</hi> 27. <hi>v.</hi> 6, 7.</p>
+               <p>Note, that when <hi>Cyrus</hi> the <hi>Perſian</hi> overcame <hi>A<g ref="char:EOLhyphen"/>ſtyages</hi> King of the <hi>Medes,</hi> (whom <hi>Daniel</hi> 
+                  <note place="margin">Dan. 9. v. 1.</note> calleth <hi>Ahaſuerus) Darius,</hi> alias <hi>Cyaxares,</hi> ſonne of the ſaid <hi>Aſtyages,</hi> took upon him the Kingdome: but finding his ſouldiers to forſake him, and having <note place="margin">
+                     <hi>Joſeph. Antiqu. l</hi> 10. <hi>c</hi> 12. Xenoph de in<g ref="char:EOLhyphen"/>ſtit. Cyri. l. 1. &amp; 8.</note> no iſſue male, he forthwith gave his daughter in marriage unto the ſaid <hi>Cyrus</hi> (ſonne of <hi>Cambyſes</hi> the <hi>Perſian,</hi> and <hi>Mandana</hi> the ſiſter of <hi>Darius)</hi> and joy<g ref="char:EOLhyphen"/>ned him in the government, who was proſperous in <note place="margin">Dan. 5. v. 2. 30. Ezra 1. v. 1. Iſa 45. v. 1.</note> warres, took <hi>Babylon,</hi> where he ſlew <hi>Belſhazzar</hi> in his drunkenneſſe, delivered the Jewes from Capti<g ref="char:EOLhyphen"/>vity, <hi>ſubdued</hi> many <hi>Nations:</hi> and was</p>
+            </div>
+            <div type="part">
+               <head>The firſt Monarch of Perſia.</head>
+               <p>Darius reigned with Cyrus 1 yeere after <note place="margin">Xenoph. l. 8. Sleid. l. 1.</note> 
+                  <hi>Belſhazzar</hi> was ſlaine.</p>
+               <p>Of this <hi>Darius</hi> ſpeaketh <hi>Ezra, c.</hi> 6. <hi>v.</hi> 14. and <hi>Dan. c.</hi> 6. <hi>v.</hi> 1. And of their joynt-reigne, <hi>v.</hi> 28. <hi>&amp;c.</hi> 8. <hi>v.</hi> 3. <hi>&amp; Iſa.</hi> 21. <hi>v.</hi> 2. 9.</p>
+               <p>In reſpect of which joynt-reigne <hi>Darius</hi> is ſaid to <note place="margin">Dan. 5 v. 30. 31 Jer. 51. v. 11. Iſa<g ref="char:punc">▪</g> 13. v. 17. <hi>Melancthon. l</hi> 2. <hi>chron. de</hi> 2. <hi>Mo<g ref="char:EOLhyphen"/>narch. pag.</hi> 10. Sr. <hi>W. R. Hiſt. l.</hi> 3. <hi>c.</hi> 3. <hi>Sect.</hi> 5. Dan. 9. v. 1.</note> take the Kingdome of the <hi>Chaldeans,</hi> or <hi>Babylon;</hi> though indeed <hi>Cyrus</hi> was onely in that action: and <hi>Darius</hi> was by him <hi>made King over the Realme of the Chaldeans.</hi>
+               </p>
+               <pb n="34" facs="tcp:50013:21"/>
+               <p> Cyrus after <hi>Darius</hi> his death 15 yeeres.</p>
+               <p>The building of the Temple went forward two yeeres, but from the beginning of the third yeere <note place="margin">Ezra 4. v. 24. Dan. 10. v. 1, 2. 4. 13.</note> of <hi>Cyrus</hi> (accompting from <hi>Darius</hi> his death) <hi>Cam<g ref="char:EOLhyphen"/>byſes withſtood</hi> it, and cauſed it to <hi>ceaſe</hi> 21. <hi>yeeres:</hi> which was, untill he himſelfe died. Allowing there<g ref="char:EOLhyphen"/>fore eight yeeres unto him with <hi>Smerdis the Mage,</hi> it is plaine that he hindered the building in his fa<g ref="char:EOLhyphen"/>thers abſence 13. yeeres; Whereunto adding thoſe two yeeres, when it went forward, the time of <hi>Cy<g ref="char:EOLhyphen"/>rus</hi> his reigne after <hi>Darius,</hi> was 15. yeeres.</p>
+               <p>Cambyſes when his father <hi>Cyrus</hi> invaded <hi>Scy<g ref="char:EOLhyphen"/>thia,</hi> 
+                  <note place="margin">
+                     <hi>Herodot. l.</hi> 3. <hi>Grimſton Eſtat.</hi> in the Chron. of <hi>Perſia, Sect.</hi> 1. 6</note> was appointed King according to the cuſtome of the <hi>Perſians,</hi> which was, to leave the neareſt in bloud to rule in the Kings abſence; In which Expedition <hi>Cyrus</hi> was at length ſlaine, and then <hi>Cambyſes</hi> reigned alone 7 yeers and 5 moneths.</p>
+               <p>
+                  <hi>Ezra</hi> calleth him <hi>Artaxerxes,</hi> alias <hi>Artahſhaſhte,</hi> 
+                  <note place="margin">Ezra 4. v. 7. 11. 23.</note> which was then a generall name unto the Kings of <hi>Perſia,</hi> as <hi>Pharaoh</hi> to the Kings of <hi>Egypt, Caeſar</hi> to the <hi>Roman</hi> Emperors, and at this day <hi>Sophi</hi> to the <hi>Perſian.</hi> 
+                  <note place="margin">
+                     <hi>Beda de</hi> 6. <hi>aetat. mundi. Conſtant. Phryg. fol.</hi> 162. <hi>Buchol. pag.</hi> 33. <hi>Iſaacſ. fol.</hi> 132. <hi>Euſeb. chr. fol.</hi> 53. <hi>D. Melancth. l.</hi> 2. <hi>Chron. de</hi> 2. <hi>Mo<g ref="char:EOLhyphen"/>narch. p.</hi> 3. <hi>Aeli<g ref="char:EOLhyphen"/>an. hiſt. l.</hi> 12. <hi>c.</hi> 43. <hi>Grimſt. l. d. Sect.</hi> 8.</note>
+               </p>
+               <p>Smerdis <hi>the Mage</hi> reigned 7 moneths, which time is uſually added to <hi>Cambyſes.</hi>
+               </p>
+               <p>Darius ſonne to <hi>Hyſtaſpes</hi> King by election, ſir<g ref="char:EOLhyphen"/>named <hi>Artaxerxes Ahaſuerus,</hi> reigned 36 yeeres.</p>
+               <pb n="35" facs="tcp:50013:21"/>
+               <p> Of whom <hi>Ezra</hi> 4. <hi>v.</hi> 5, 6. (where he is called <hi>A<g ref="char:EOLhyphen"/>haſuerus) v.</hi> 
+                  <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>4. <hi>&amp;c.</hi> 5. <hi>v.</hi> 7. <hi>&amp;c.</hi> 6. <hi>v.</hi> 14. (where he is called <hi>Artaxerxes) v.</hi> 15. 22. (where he is called King of <hi>Aſſyria) Hag.</hi> 1. <hi>v.</hi> 1. <hi>Zech.</hi> 1. <hi>v.</hi> 1. <hi>&amp;c.</hi> 7. <hi>v.</hi> 1.</p>
+               <p>
+                  <hi>He was the husband of Queen Eſther, alias Hadaſſah.</hi> 
+                  <note place="margin">Eſth. 2. v. 7. <hi>Func Chron. fol.</hi> 65.</note> Eſth. 1. <hi>v.</hi> 1. compared with 1 <hi>Eſdras</hi> 2. <hi>v.</hi> the laſt, and <hi>c.</hi> 3. <hi>v.</hi> 1, 2.</p>
+               <p>Xerxes ſonne to <hi>Darius,</hi> in the fifth yeere of his <note place="margin">Of whom, Dan. 11. v. 2.</note> reigne went with an innumerable hoſt againſt the <hi>Grecians;</hi> but after many battels, in the end of his <note place="margin">
+                     <hi>Herodot. l.</hi> 7.</note> 15 yeere, was utterly overthrowne both at Sea and Land, and brought into ſuch contempt, that pre<g ref="char:EOLhyphen"/>ſently <note place="margin">
+                     <hi>Bucholz. pag.</hi> 36. 38.</note> upon his returne into <hi>Aſia,</hi> he joyned his ſon <hi>Longimanus</hi> in the government, wholly giving him<g ref="char:EOLhyphen"/>ſelfe <note place="margin">
+                     <hi>Vict Strigel. Schol hiſt. in Melancth. l.</hi> 2. <hi>Chron.</hi>
+                  </note> unto luſt and cruelty, and ſixe yeeres after was ſlaine by his Unkle <hi>Artabanus.</hi>
+               </p>
+               <p>His laſt ſixe yeeres are the ſame with his ſons, and therefore not to be accompted. <note place="margin">
+                     <hi>Hiſt. x Cteſiae Perſicis. Euſeb. chr f.</hi> 56. <hi>Melancth. l d. pag</hi> 4. <hi>Chriſtoph. Hel<g ref="char:EOLhyphen"/>vic. fol.</hi> 17.</note>
+               </p>
+               <p>Artaxerxes, ſirnamed Longimanus, 40 yeeres.</p>
+               <p>Of whom <hi>Ezra</hi> 7. <hi>v.</hi> 7. <hi>Neh.</hi> 2. <hi>v.</hi> 
+                  <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. <hi>&amp;c.</hi> 5. <hi>v.</hi> 14. <hi>&amp;c.</hi> 13. <hi>v.</hi> 6.</p>
+               <p>In the end of his ſeventh yeere he gave <hi>Ezra</hi> his <note place="margin">
+                     <hi>Func. Comment. in Chronol. l.</hi> 2. <hi>Bucholz. p.</hi> 40. Neh 2. v. 1. 8. 13 &amp;c. 4. v. 1. 3. 7. 8. 13. to v. the laſt.</note> Commiſſion; and then began <hi>Daniels</hi> 70. <hi>weeks.</hi>
+               </p>
+               <p>And in his twentieth yeere he gave <hi>Nchemiah</hi> Commiſſion <hi>to repaire</hi> ſome houſes, and to build
+<pb n="36" facs="tcp:50013:22"/> 
+                  <hi>the wals of Jeruſalem;</hi> which accordingly was exe<g ref="char:EOLhyphen"/>cuted, although (as it was foretold to <hi>Daniel) the</hi> 
+                  <note place="margin">Dan. 9. v. 25.</note> 
+                  <hi>ſtreet was built againe, and the wall, even in trouble<g ref="char:EOLhyphen"/>ſome times.</hi>
+               </p>
+               <list>
+                  <item>Xerxes <note place="margin">
+                        <hi>Hiſt ex Cteſiae Perſicis. Chriſt. Helvic. fol.</hi> 18. <hi>Iſaacſ. Chron. fol.</hi> 140.</note>
+                     <list>
+                        <item>ſons to <hi>Artaxerxes,</hi> reigned ſeverally 9 moneths.</item>
+                        <item>Sogdian <hi>alias</hi> Secundian</item>
+                     </list>
+                  </item>
+               </list>
+               <p>Darius Nothus 19 yeeres. <note place="margin">
+                     <hi>Sleidan. l.</hi> 1. <hi>Grimſt. l. d. Sect.</hi> 1. <hi>&amp;</hi> 12. <hi>Bucholz. pag.</hi> 43</note>
+               </p>
+               <p>Artaxerxes Mnemon 40 yeeres. <note place="margin">
+                     <hi>Euſeb. Chron. fol.</hi> 57. <hi>Melancth. l. d. pag</hi> 4.</note>
+               </p>
+               <p>Darius Artaxerxes ſirnamed Ochus <note place="margin">
+                     <hi>Metaſthenes. Aelian hiſt. l.</hi> 2. <hi>c.</hi> 17. <hi>Melancth. l. d. ib. Func<g ref="char:punc">▪</g> Chr. f</hi> 73. <hi>Sleidan. l.</hi> 1. <hi>Grimſt. l. d. Sect.</hi> 1. <hi>&amp;</hi> 13.</note> 26 yeeres.</p>
+               <p>Arſames, alias Arſaces, alias Arſes, <note place="margin">
+                     <hi>Beda. l. d. Meta<g ref="char:EOLhyphen"/>ſthenes. Func. Chr. f</hi> 74. <hi>Helv. ib. Grimſt. l. d. Sect.</hi> 1. <hi>&amp;</hi> 13.</note> 4 yeeres.</p>
+               <p>Darius, whoſe firſt name was Coloman<g ref="char:EOLhyphen"/>nus, <note place="margin">
+                     <hi>Beda. l. d. Meta<g ref="char:EOLhyphen"/>ſthenes. Func. Chr. f.</hi> 74 <hi>Hel<g ref="char:EOLhyphen"/>vic ib. Grimſt. l. d. Sect.</hi> 1. 13. <hi>&amp;</hi> 14.</note> alias Codomannus, reigned 6 yeeres.</p>
+               <pb n="37" facs="tcp:50013:22"/>
+               <p> Of whom <hi>Neh.</hi> 12. <hi>v.</hi> 22. <hi>Joſeph. Antiqu. lib.</hi> 11. <hi>cap.</hi> 7.</p>
+               <p>This Darius was in three battels vanquiſhed <note place="margin">1 Mac. 1. v. 1. <hi>Joſeph. Antiqu. l.</hi> 11 <hi>c. ult. Aelian hiſt. l.</hi> 8. <hi>c.</hi> 7. <hi>&amp; l.</hi> 12. <hi>c.</hi> 43. <hi>Juſtin. l.</hi> 11 <hi>Sleidan. l.</hi> 1. <hi>Grimſt. l. d. Sect.</hi> 14.</note> by <hi>Alexander the Great.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">An Object. </seg>
+                  </label> 
+                  <hi>One Argument Mr. Broughton</hi> brings, wherewith (as he conceives) he diſproveth al computations but his owne; and it is drawne from the ages of <hi>Zerub<g ref="char:EOLhyphen"/>babel, Jeſhua, Mordecai, Ezra,</hi> and <hi>Nehemiah;</hi> which <note place="margin">See <hi>Broughtons</hi> conſent of Scripture.</note> (ſaith he) muſt be ſtretched beyond all likelihood, if the Kingdome of <hi>Perſia</hi> continued above 130. yeeres.</p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Reſolved. </seg>
+                  </label> As to <hi>Zerubbabel. Jeremiah</hi> tels us, That <hi>Jehoi<g ref="char:EOLhyphen"/>akim,</hi> alias <hi>Jeconiah,</hi> was <hi>brought forth of priſon in</hi> 
+                  <note place="margin">Jer. 52. v. 31. 33, 34.</note> 
+                  <hi>the</hi> 37. <hi>yeere of his Captivity,</hi> which was the 26. yeere of the Captivity of <hi>Judah; and did eate continually before the King of Babylon, untill the day of his death:</hi> which admit to be two yeeres after; then were 28. yeeres of <hi>Judah's</hi> Captivity paſſed. <hi>Salathiel,</hi> alias <note place="margin">Matth 1. v. 12. 1 Chr. 3. v. 18, 19.</note> 
+                  <hi>Shealtiel,</hi> was the ſonne of <hi>Jeconiah</hi> by ſucceſſion: <hi>Salathiel</hi> begat <hi>Pedaiah, Pedaiah</hi> begat <hi>Zerubbabel.</hi>
+               </p>
+               <p>Now admit, that <hi>Salathiel</hi> immediately after he ſucceeded <hi>Jeconiah,</hi> begat <hi>Pedaiah,</hi> and that <hi>Pedaiah</hi> at 24. yeeres alſo begat <hi>Zerubbabel,</hi> (which probably was not ſooner) then was <hi>Zerubbabel</hi> 18. yeeres old in the firſt yeer of King <hi>Cyrus,</hi> and 48. when the Tem<g ref="char:EOLhyphen"/>ple was finiſhed, in the reigne of <hi>Darius Hyſtaſpes.</hi>
+               </p>
+               <pb n="38" facs="tcp:50013:23"/>
+               <p> As to <hi>Jeſhua.</hi> He was the ſonne of <hi>Jozadak,</hi> alias <note place="margin">Ezra 3. v. 2. 1 Chr. 6. v. 14, 15. 2 K<g ref="char:punc">▪</g> 25 v. 18. 21</note> 
+                  <hi>Jehozadak,</hi> the ſonne of <hi>Seraiah,</hi> the chiefe Prieſt, who was ſlaine by <hi>Nebuchadnezzar.</hi> Now admit that <hi>Jehozadak</hi> was ten yeeres old when he was carried into Captivity, and that 30. yeeres after he begat <hi>Jeſhua;</hi> then was <hi>Jeſhua</hi> 40. yeeres old in the firſt yeere of <hi>Cyrus,</hi> and 70. when the Temple was fi<g ref="char:EOLhyphen"/>niſhed.</p>
+               <p>As to <hi>Mordecai.</hi> Admit that he was five yeeres <note place="margin">Eſth. 2. v. 6.</note> old when he was carried away Captive with <hi>Jeco<g ref="char:EOLhyphen"/>niah,</hi> then was he 122. yeeres old in the 12. yeere <note place="margin">C. 3. v. 7.</note> of <hi>Ahaſuerus,</hi> when the two daies of <hi>Purim</hi> were <hi>by the Decree of Queene Eſther</hi> made feaſtivall; after <note place="margin">C. 9. v. 1. 32.</note> which ſhould he live eight yeeres, he then died at the age of 130. which was not unlikely in thoſe <note place="margin">2 Chr. 24. v. 15</note> times.</p>
+               <p>As to <hi>Ezra.</hi> Admit that he was five yeeres old when his father <hi>Seraiah</hi> the chiefe Prieſt was ſlaine, then was he 170. yeeres old in the 20. of <hi>Artaxerxes Longimanus,</hi> when he <hi>read and inſtructed the people in</hi> 
+                  <note place="margin">Neh. 2. v. 1 &amp;c. 8. v. 3. 13.</note> 
+                  <hi>the words of the Law:</hi> after which, ſhould he live ten yeers (though peradventure he lived not one yeer) he then died at the age of <hi>Iſaac</hi> 180. yeers old. And what unlikelihood is there but that God for the good of <note place="margin">Gen. 35. v. 28.</note> his Church might as well preſerve <hi>Ezra</hi> unto this age, as he did <hi>Phinehas</hi> the ſonne of <hi>Eleazar</hi> to a far <note place="margin">
+                     <hi>Moſes Aegyptius in ſuo Miſna, ut citatur l.</hi> 2. <hi>chr. Genebr.</hi>
+                  </note> greater, whom the Jewes affirme to have lived 300. yeeres?</p>
+               <p>Nor will it further extend the age of <hi>Ezra</hi> to ſhew, that <hi>Ezra</hi> went into the Chamber of <hi>Johanan,</hi> and that he wrote the Books of the Chronicles in
+<pb n="39" facs="tcp:50013:23"/> 
+                  <hi>Johanan's</hi> time. For <hi>Johanan,</hi> alias <hi>Ionathan, was the ſonne of Iehoiada, the ſonne of Eliaſhib, the ſonne of Ioi<g ref="char:EOLhyphen"/>akim,</hi> 
+                  <note place="margin">Neh. 12 v. v. 10 11.</note> 
+                  <hi>the ſonne of Ieſhua.</hi> Now admit each of theſe to be begotten in the thirtieth yeere of their fathers age, (obſerving what we ſpake before concerning <hi>Ieſhua)</hi> then was <hi>Iohanan</hi> borne in the fifth yeere of <hi>Artaxerxes Longimanus;</hi> and ſo <hi>Ezra</hi> might very well in the beginning of <hi>Artaxerxes</hi> his eighth yeere <hi>go into the chamber of Iohanan,</hi> who was then about <note place="margin">Ezra 10. v. 6.</note> three yeeres old. And what hinders but that he might <hi>write the ſonnes of Levi, the chief of the fathers,</hi> 
+                  <note place="margin">Neh. 12. v. 23.</note> 
+                  <hi>in the Booke of the Chronicles, even untill the dayes of Iohanan,</hi> ſeeing he lived in the 20. of <hi>Artaxerxes,</hi> at which time <hi>Iohanan</hi> was 15. yeeres old?</p>
+               <p>But if Mr. <hi>Broughton</hi> may prevaile, the ſaid Prieſts ſhall be much more forward in procreation. For he will allow but 87. yeeres from the Captivity of <hi>Ze<g ref="char:EOLhyphen"/>dekiah</hi> 
+                  <note place="margin">See <hi>Broughtons</hi> conſent of Scripture.</note> unto the 7. of <hi>Artaxerxes.</hi> Whence it follows, that though ten yeeres be granted to <hi>Iehozadak</hi> at the time of Captivity, yet every one of them muſt begin to beget children before 19. yeeres old, other<g ref="char:EOLhyphen"/>wiſe <hi>Iohanan</hi> could not be borne when <hi>Ezra</hi> came to <hi>Ieruſalem.</hi>
+               </p>
+               <p>True it is, <hi>Nehemiah</hi> ſaith, that <hi>the Levites and Prieſts were recorded unto the reigne of Darius,</hi> but by <note place="margin">Neh. 12. v. 22.</note> whom this was done, he tels not; it is plaine, not by <hi>Ezra,</hi> for he wrote but <hi>untill the dayes of Iohanan.</hi> 
+                  <note place="margin">1 Chr. 9. com<g ref="char:EOLhyphen"/>pared with Neh. 11.</note> And though <hi>Nehemiah</hi> concludes, <hi>theſe were in the daies of</hi> Joiakim, <hi>and in the dayes of</hi> Nehemiah <hi>the Governour, and of</hi> Ezra <hi>the Prieſt, the Scribe;</hi> yet it <note place="margin">C. 12. v. 26.</note> cannot be underſtood, that they were all of them
+<pb n="40" facs="tcp:50013:24"/> in every one of their daies, for that is impoſſible: but that all of them were in all their daies; ſome in the daies of <hi>Joiakim,</hi> ſome in the dayes of <hi>Ezra,</hi> ſome in the daies of <hi>Nehemiah.</hi>
+               </p>
+               <p>As to the age of <hi>Nehemiah.</hi> Admit that he was 25. yeeres old when <hi>he came to Jeruſalem,</hi> and lived unto the end of the Perſian Monarchy, he was then <note place="margin">Neh. 2. v. 11.</note> 130. yeeres old when he died, which is nothing un<g ref="char:EOLhyphen"/>likely. <note place="margin">
+                     <hi>Func. fol</hi> 74.</note>
+               </p>
+               <p>Thus we have the continuance of the Perſian Kingdome unto 210. yeeres, and probably the ages of <hi>Zerubbabel, Ieſhua, Mordecai, Ezra,</hi> and <hi>Nehemiah;</hi> without the diminution of the one, or ſtretching of the other beyond reaſon.</p>
+            </div>
+            <div type="part">
+               <head>The firſt Monarch of Grecia.</head>
+               <p>Alexander the Great, after the full over<g ref="char:EOLhyphen"/>throw <note place="margin">
+                     <hi>Juſtin. l.</hi> 11. <hi>Bacholz. pag.</hi> 53.</note> of <hi>Darius,</hi> reigned 7 yeeres.</p>
+               <p>Upon his death-bed he parted his Kingdome a<g ref="char:EOLhyphen"/>mong <note place="margin">1 Mac. 1. v. 6. 9. Dan. 11. v. 5. to the 30.</note> his ſervants, ſuch as were honourable; who all after his death put Crownes upon themſelves, and ſoone fell into warres one againſt another. Of whom the chiefeſt were foure: <hi>Seleucus</hi> King of <hi>Sy<g ref="char:EOLhyphen"/>ria,</hi> 
+                  <note place="margin">
+                     <hi>Joſeph. Antiqu. l.</hi> 12. <hi>c</hi> 1. <hi>Juſtin. l.</hi> 13. <hi>Sleidan. l.</hi> 1. Dan. 7. v. 6 c. 8. v. 8. 21, 22. &amp;c. 11. v. 3, 4.</note> 
+                  <hi>Ptolomeus</hi> of <hi>Egypt, Antigonus</hi> of <hi>Aſia</hi> the leſſe, and <hi>Caſſander</hi> of <hi>Macedon.</hi> And of theſe the two former excelled in power: between whom what leagues and conflicts ſhould be, <hi>Daniel</hi> foretold un<g ref="char:EOLhyphen"/>der the names of <hi>The King of the North, and the King</hi> 
+                  <note place="margin">Dan. 11.</note> 
+                  <hi>of the South.</hi> For <hi>Syria</hi> lieth Northward, and <hi>Egypt</hi>
+                  <pb n="41" facs="tcp:50013:24"/> Southward, from <hi>Judea.</hi> The <hi>whole chapter is para<g ref="char:EOLhyphen"/>phraſed by Joſeph Hall Biſhop of Exceter.</hi>
+               </p>
+               <p>Note, That the Grecian Kingdome <note place="margin">
+                     <hi>Func. fol.</hi> 75. <hi>Bucholz. pag.</hi> 56</note> ſo often mentioned in the Books of the <hi>Maccabees,</hi> began 13 yeeres compleat after the death of <hi>Alex<g ref="char:EOLhyphen"/>ander</hi> the <hi>Great.</hi>
+               </p>
+               <p>Antiochus ſirnamed Epiphanes, ſonne of <note place="margin">Dan. 8. v. 23. &amp;c 11. v. 21. 1 Mac. 1. v. 10. 2 Mac. 4. v. 7. <hi>Joſeph. Antiqu. l.</hi> 12 <hi>c.</hi> 5.</note> 
+                  <hi>Antiochus</hi> King of <hi>Syria, a King of fierce countenance, a vile perſon,</hi> that wicked root, after his brother <hi>Se<g ref="char:EOLhyphen"/>leucus</hi> was dead, began to reigne in the end of the 137 yeere of the <hi>Grecian Kingdome.</hi>
+               </p>
+               <p>On the eighth day of the fifth moneth in the 141. <note place="margin">Dan. 8. v. 11, 12 13. 1 Mac. 1. v. 13, 14. 15. 21. to the end of the ch. &amp;c. 2. v. 6. to the 16. <hi>Joſeph. Antiqu. l.</hi> 12. <hi>c.</hi> 7, 8.</note> yeere, <hi>the tranſgreſsion of deſolation</hi> began, and <hi>the daily ſacrifice</hi> decaied by the groſſe idolatry of thoſe, who (with the licence of <hi>Antiochus)</hi> joyned them<g ref="char:EOLhyphen"/>ſelves to the Heathen, and were ſold to do miſchief. And in the 143. yeere, he took <hi>Jeruſalem,</hi> polluted <hi>the Sanctuary,</hi> hindered, and afterwards forbad the daily Sacrifice, and compelled the Jewes to all man<g ref="char:EOLhyphen"/>ner of ambition. Whom <hi>Mattathias</hi> the Prieſt for <note place="margin">1 Mac. 2. v. 1. 19 to the 48. &amp; v. 66. 70. &amp;c. 3. v. 1, 2. <hi>Joſeph. l. d. c.</hi> 8.</note> ſome times couragiouſly and proſperouſly reſiſted; but he quickly deceaſing, <hi>Judas Maccabeus</hi> (accor<g ref="char:EOLhyphen"/>ding to his appointment) roſe up in his ſtead, and became both the Captaine and Governour of <hi>Ju<g ref="char:EOLhyphen"/>dea,</hi> in the end of the 146. yeere of the <hi>Grecian King<g ref="char:EOLhyphen"/>dome,</hi>
+               </p>
+               <p>Antiochus having then reigned 9 yeeres.</p>
+               <pb n="42" facs="tcp:50013:25"/>
+               <p> Iudas, ſirnamed Maccabeus, was ſlaine in <note place="margin">1 Mac. 9. v. 3. 18 <hi>Joſeph. l. d. c.</hi> 9. &amp; 19.</note> the end of the firſt moneth of the 152. yeere, having governed 5 yeeres and 1 moneth.</p>
+               <p>In the ſecond yeere of his government on the <note place="margin">1 Mac. 4. v. 36. 10 <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>he 60.</note> five and twentieth day of the ninth moneth, in the 148. yeer, he finiſhed <hi>the cleanſing of the Sanctuary,</hi> and reſtored the daily Sacrifice. So that from the time that <hi>the tranſgreſsion of deſolation</hi> began, and <hi>the daily Sacrifice</hi> decaied, unto <hi>the cleanſing of the Sanctuary,</hi> and the full reſtoring of the Sacrifice, are 6. yeeres 3. moneths, and 17. dayes; which containe thoſe 2300. dayes revealed unto <hi>Daniel.</hi> 
+                  <note place="margin">Dan. 8. v. 13. 14. 1 Mac. 12. v. 48. &amp;c. 13. v. 12. 23. compare c. 11. v. 19. 20. with c. 13. v. 41, 42. <hi>Func. Chr. f.</hi> 83. <hi>Bucholz. p.</hi> 79.</note>
+               </p>
+               <p>Ionathan the High-Prieſt, was taken priſoner<g ref="char:punc">▪</g> and ſlaine in the end of the 169. yeere, having gover<g ref="char:EOLhyphen"/>ned 18 yeeres.</p>
+               <p>Simon the High-Prieſt, and Prince of the Jewes, <note place="margin">1 Mac. 13. v 42 &amp;c. 16. v. 14. 16 <hi>Joſeph. Antiqu. l.</hi> 13. <hi>c.</hi> 11. &amp; 14</note> was treacherouſly ſlaine in the 11. moneth of the 177. yeer, having governed 7 yeers and 11 moneths.</p>
+               <p>Iohn, ſirnamed Hyrcanus the High-Prieſt, <note place="margin">1 Mac. 16. v. 23 24. <hi>Joſeph. Antiqu. l. d. d. c.</hi> 15. <hi>&amp;</hi> 18.</note> governed 31 yeeres.</p>
+               <p>Ariſtobulus, who was the firſt that Crowned <note place="margin">
+                     <hi>Joſeph. l. d. c.</hi> 19</note> himſelfe King of <hi>Judea,</hi> reigned 1 yeere.</p>
+               <pb n="43" facs="tcp:50013:25"/>
+               <p> Alexander, ſirnamed Ianneus, 27 yeeres. <note place="margin">
+                     <hi>Ioſeph. l. d. c.</hi> 20 <hi>&amp;</hi> 23.</note>
+               </p>
+               <p>Salome, whom the <hi>Greeks</hi> call Alexandra, <note place="margin">
+                     <hi>Ioſeph. l. d. c.</hi> 24.</note> the wife of the ſaid <hi>Alexander,</hi> reigned 9 yeeres.</p>
+               <p>Ariſtobulus, compelling his brother <hi>Hyrcanus</hi> 
+                  <note place="margin">
+                     <hi>Ioſeph. l.</hi> 14. c. 1 <hi>&amp;</hi> 8.</note> the High-Prieſt, to ſubmit unto a private life, took upon him both the Kingdome and Prieſt-hood; but in the third yeere of his reign he was taken priſoner by <hi>Pompey,</hi> and carried to <hi>Rome.</hi>
+               </p>
+               <p>Preſently after, <hi>Gabinius</hi> the <hi>Romane</hi> Generall, <note place="margin">
+                     <hi>Ioſeph. l. d. c.</hi> 10.</note> vanquiſhing <hi>Alexander</hi> the ſon of <hi>Ariſtobulus,</hi> ere<g ref="char:EOLhyphen"/>cted five ſeats of Juſtice; The firſt at <hi>Jeruſalem,</hi> the ſecond at <hi>Gadar,</hi> the third at <hi>Amatho,</hi> the fourth at <hi>Jericho,</hi> the fifth at <hi>Saphor</hi> in <hi>Galilee,</hi> and ſo changed the Kingdome into an <hi>Ariſtocracy;</hi> which was im<g ref="char:EOLhyphen"/>mediately <note place="margin">
+                     <hi>Ioſeph. l. d. c.</hi> 11.</note> interrupted by <hi>Ariſtobulus,</hi> who eſcaped from <hi>Rome,</hi> but was ſoone taken by the ſaid <hi>Gabini<g ref="char:EOLhyphen"/>us,</hi> and againe ſent back.</p>
+               <p>Ariſtobulus reigned (including the time of his <note place="margin">Ioſeph. ibid.</note> Captivity) 3 yeers and 6 moneths</p>
+               <p>
+                  <hi>Afterwards</hi> the ſaid Ariſtocracy continued <note place="margin">
+                     <hi>Ioſeph: l. d. c.</hi> 15. <hi>ſchol. illuſtrat.</hi>
+                  </note> 15 yeeres and 6 moneths.</p>
+               <p>Antipater by <hi>Julius Caeſar</hi> made Governour of <hi>Judea,</hi> in the end of the <hi>third</hi> yeere <note place="margin">
+                     <hi>Ioſeph. l. d. c.</hi> 15. <hi>&amp;</hi> 17 <hi>ſchol. illuſtrat. Func. Chr. fol.</hi> 89.</note> of his government placed (his two elder ſonnes) <hi>Phaſaelus</hi> over <hi>Jeruſalem,</hi> and <hi>Herod</hi> over <hi>Galilee.</hi>
+               </p>
+               <pb n="44" facs="tcp:50013:26"/>
+               <p> Phaſaelus and Herod, when they had go<g ref="char:EOLhyphen"/>verned <note place="margin">
+                     <hi>Joſeph. l. d. c.</hi> 25. <hi>fchol. illuſtr. Func. chr. ibid.</hi>
+                  </note> 3 yeeres, were diſplaced by the <hi>Parthians.</hi>
+               </p>
+               <p>Antigonus, ſonne to <hi>Ariſtobulus,</hi> by the <hi>Parthi<g ref="char:EOLhyphen"/>ans</hi> 
+                  <note place="margin">
+                     <hi>Ioſeph. l. d. c.</hi> 24. <hi>&amp; l.</hi> 15. <hi>c.</hi> 1. <hi>ſchol. illuſtr. Func. Chr. ibid.</hi>
+                  </note> made King, reigned 5 yeeres.</p>
+               <p>Herod before named, was by the <hi>Romanes</hi> decla<g ref="char:EOLhyphen"/>red <note place="margin">
+                     <hi>Joſeph. l.</hi> 14. <hi>c.</hi> 26. <hi>&amp;</hi> 28. <hi>l.</hi> 15. <hi>c.</hi> 1. <hi>&amp; l.</hi> 17. <hi>c.</hi> 10. <hi>Func. Chr. f.</hi> 91.</note> King of <hi>Judea,</hi> and by their help o<g ref="char:EOLhyphen"/>vercame <hi>Antigonus.</hi> After which he was ſirnamed the <hi>Great,</hi> and reigned 34 yeeres.</p>
+               <p>Of whom <hi>Matth.</hi> 2. <hi>v.</hi> 1. to the 19. <hi>Luke</hi> 1. <hi>v.</hi> 5.</p>
+               <p>He was nine yeeres and ſixe moneths in repairing <note place="margin">
+                     <hi>Ioſoph. Antiqu. l.</hi> 15. <hi>c. ult. Bucholz. p.</hi> 128</note> 
+                  <hi>Zerubbabels</hi> Temple; which was in building (inclu<g ref="char:EOLhyphen"/>ding the times of interruption) 29. yeeres. <hi>Solomon's</hi> was built in ſeven yeeres and ſixe moneths. Now adde theſe three ſummes together, and according to the Jewes manner of ſpeaking, (which they fre<g ref="char:EOLhyphen"/>quently uſed for memory ſake) The <hi>Temple was in</hi> 
+                  <note place="margin">John 2. <hi>v.</hi> 20.</note> 
+                  <hi>building</hi> 46. <hi>yeeres.</hi>
+               </p>
+               <p>
+                  <hi>Our Saviour</hi> Ieſus Chriſt was borne in the <note place="margin">
+                     <hi>Ioſeph. l.</hi> 17. <hi>c.</hi> 10 <hi>Func. Chr. f.</hi> 91.</note> beginning of the 34. yeere of <hi>Herod.</hi>
+               </p>
+               <p>And in the beginning of the 42. yeere of <hi>Augu<g ref="char:EOLhyphen"/>ſtus,</hi> 
+                  <note place="margin">
+                     <hi>Euſeb. Chr. fol.</hi> 69. <hi>D. Beda. l. d. Polan. Synt. Theol. l.</hi> 6. <hi>c.</hi> 27. <hi>Baron. apparat. ad Annal. Eccl. Chemnit. Harm. Evangel. c.</hi> 8. Luke 2. v. 1. Gen. 49. v. 10.</note> accompting from the death of his predeceſſour <hi>Julius Caeſar.</hi>
+               </p>
+               <p>At that time <hi>Auguſtus</hi> made <hi>a Decree that all the world ſhould be taxed.</hi>
+               </p>
+               <p>
+                  <hi>Note,</hi> That when <hi>Jacob</hi> ſaid, <hi>the Scepter ſhall not depart from Judah, untill</hi> Shiloh <hi>come,</hi> It is not
+<pb n="45" facs="tcp:50013:26"/> to be underſtood that the Crowne ſhould continue in the Tribe of <hi>Judah</hi> from the time of the ſaid Pro<g ref="char:EOLhyphen"/>phecy untill <hi>Chriſts</hi> comming. For before <hi>David</hi> 
+                  <note place="margin">
+                     <hi>Calvin. inſtitut. l.</hi> 1. <hi>c.</hi> 8. <hi>Sect.</hi> 7.</note> the Prophecy tooke no effect; And after <hi>Zedekiah,</hi> even untill the <hi>Maccabees</hi> (excepting onely <hi>Zerubba<g ref="char:EOLhyphen"/>bel</hi> 
+                  <note place="margin">Neh. 5. v. 14. 15 Ezek. 21. v. 25, 26, 27. <hi>Genebr. Chr. l.</hi> 1.</note> and <hi>Nehemiah,</hi> who yet were no Kings, nor ab<g ref="char:EOLhyphen"/>ſolute Governours) it is altogether uncertaine who ruled in <hi>Judea:</hi> and from the <hi>Maccabees</hi> untill <hi>Chriſt,</hi> it is manifeſt the ſupreme authority was not in the Tribe of <hi>Judah.</hi> The true ſenſe thereof is, That af<g ref="char:EOLhyphen"/>ter <hi>Davids</hi> reigne, in whom the Prophecy firſt took effect, <hi>The Scepter,</hi> that is, the right and juſt title un<g ref="char:EOLhyphen"/>to <note place="margin">
+                     <hi>Comment. vulg. in</hi> 1. <hi>Matth.</hi>
+                  </note> the Crowne, <hi>ſhould not depart from the</hi> Tribe of <hi>Iudah untill Chriſt came;</hi> which is clearely proved <note place="margin">Matth. 1. v. 1. to the 17.</note> by Saint <hi>Matthew.</hi> But at our <hi>Saviours</hi> birth or com<g ref="char:EOLhyphen"/>ming the Jewes were not onely diſpoſſeſſed of the <note place="margin">
+                     <hi>Baron. apparat. ad Annal. Eccl. Chemnit. Harm. Evangel. c.</hi> 2.</note> Crowne, but alſo had loſt the very right and title thereunto, by ſwearing fealty unto King <hi>Herod</hi> not long before: and ſo <hi>Iacobs</hi> Prophecy was fully ac<g ref="char:EOLhyphen"/>compliſhed.</p>
+               <p>Archelaus ſucceeding his father <hi>Herod,</hi> reigned <note place="margin">Matth. 2. v. 22. <hi>Ioſeph. Antiqu. l.</hi> 17. <hi>c.</hi> 10. <hi>&amp;</hi> 13. <hi>Gerhard. Comment. in Harm. Evang. c.</hi> 10. <hi>Ioſeph. l. d. c. ult.</hi>
+                  </note> 3 yeeres, but was then degraded by <hi>Auguſtus Caeſar,</hi> and made Preſident onely of halfe <hi>Herod's</hi> Kingdome; the other halfe was divided be<g ref="char:EOLhyphen"/>twixt <hi>Herods</hi> two other ſonnes, <hi>Philip</hi> and <hi>Antipas.</hi> Seven yeeres after <hi>Auguſtus</hi> confined the ſaid <hi>Arche<g ref="char:EOLhyphen"/>laus</hi> for his Tyranny unto <hi>Vienna</hi> a City of <hi>France,</hi> where he died.</p>
+               <p>Herod, ſirnamed Antipas, and Philip,
+<pb n="46" facs="tcp:50013:27"/> at the aforeſaid diviſion of <hi>Herod's</hi> Kingdome, were by <hi>Auguſtus</hi> made <hi>Tetrarchs,</hi> the former of <hi>Galilee,</hi> 
+                  <note place="margin">Luke 3. v. 1.</note> the latter of <hi>Iturea, and of the Region of Trachonitis.</hi>
+               </p>
+               <p>This <hi>Herod</hi> beheaded <hi>Iohn the Baptiſt,</hi> and was by our <hi>Saviour</hi> termed <hi>a Fox,</hi> for his deceit and trea<g ref="char:EOLhyphen"/>chery: <note place="margin">Matth. 14. v. 1.</note> Whom Saint <hi>Mark,</hi> uſing the phraſe of his owne people, calleth <hi>a King;</hi> And in reſpect of his <note place="margin">Mark<g ref="char:punc">▪</g> 6. v. 14. 26. Luke 9. v. 7. &amp;c. 13. v. 32.</note> power and greatneſſe it is, that the Scriptures place him before his elder brother <hi>Philip.</hi>
+               </p>
+               <p>
+                  <hi>Our Saviour</hi> Ieſus Chriſt was crucified when <note place="margin">
+                     <hi>Ioſeph. Antiqu. l.</hi> 17. <hi>c.</hi> 13. <hi>&amp; l.</hi> 18. <hi>c.</hi> 3. <hi>ſchol. il<g ref="char:EOLhyphen"/>luſtr. Func. Chr. fol.</hi> 91. 92.</note> 
+                  <hi>Herod the Tetrarch</hi> had governed 29 yeeres, and a<g ref="char:EOLhyphen"/>bout 3 moneths.</p>
+               <p>And in the eighteenth yeere, about the begin<g ref="char:EOLhyphen"/>ning <note place="margin">
+                     <hi>Euſeb. Ch. f.</hi> 71. <hi>Beda. l. d. Gene<g ref="char:EOLhyphen"/>br. chr. l.</hi> 2. <hi>Ba<g ref="char:EOLhyphen"/>ron. Annal. Ec<g ref="char:EOLhyphen"/>cleſ. f.</hi> 101. <hi>&amp;</hi> 169. <hi>Gualterius Tom.</hi> 2. <hi>Ioſeph. Antiq. l.</hi> 18. <hi>c.</hi> 3.</note> of the fourth moneth of <hi>Tiberius Caeſar,</hi> who ſucceeded <hi>Auguſtus,</hi> having reigned 57. yeere.</p>
+               <p>And in the ſeventh yeere of <hi>Pontius Pilate,</hi> Gover<g ref="char:EOLhyphen"/>nour <note place="margin">
+                     <hi>Func. Chr. f.</hi> 92. <hi>Iſaacſ. pag.</hi> 184.</note> of <hi>Iudea.</hi>
+               </p>
+               <p>The age therefore of our Saviour <note place="margin">
+                     <hi>Ignat. ad Trall. Niceph. Hiſt. Eccleſ. l.</hi> 1. <hi>ſub finem. Polan. Syntag. Theol. l.</hi> 6. <hi>c.</hi> 18. <hi>Baron. Annal. Eccleſ.</hi> 169. <hi>Gordon. Leſinor. Chr. Tom.</hi> 2. <hi>Apparat. c.</hi> 4.</note> was 33. yeeres and about three moneths.</p>
+               <p>
+                  <hi>And may be thus ſet forth in particular.</hi>
+               </p>
+               <pb n="47" facs="tcp:50013:27"/>
+               <p> Upon the expiration of the 30. yeere of <hi>His</hi> age, <note place="margin">Luke 3. v 21. 22, 23. comp. with Numb. 4. v. 23. 30. 47. Matth. 4. v. 12. 17. Mark. 1. v. 14. <hi>Chemnit. Harm. Evangel. c.</hi> 17. <hi>&amp;c</hi> 22. <hi>Ioſeph. Antiqu. l.</hi> 3. <hi>c.</hi> 10. <hi>Scalig. de emen<g ref="char:EOLhyphen"/>dat. temp. l.</hi> 6. <hi>Chemnit. Harm. Evang. Prolog.</hi> c. 3. Levit. 23. v. 5. 6 10. 11. comp. with Deut. 16. v. 1. 9, 10. <hi>Genebr. l.</hi> 2. <hi>Chemnit. Harm. Evangel. c.</hi> 45.</note> 
+                  <hi>He</hi> was baptized and entred into <hi>His</hi> Miniſtery; though <hi>He</hi> did not publikely ſhew <hi>Himſelfe,</hi> till <hi>Iohn</hi> was caſt into priſon, which was almoſt a yeer after.</p>
+               <p>Neither can any inconvenience follow from the ſeaſon of the yeere, that <hi>Chriſt</hi> ſhould then go into the river <hi>Iordan</hi> to be baptized For in <hi>Iudea</hi> there is very little winter, and that onely in <hi>October,</hi> and the beginning of <hi>November.</hi> And the Scriptures tell us, that on the ſecond day after the <hi>Paſſeover,</hi> which was the 16. day of the moneth <hi>Abib alias Niſan,</hi> and is with us the 27. of <hi>March, a ſheafe of the firſt fruits of Harveſt</hi> was offered.</p>
+               <p>The firſt <hi>Paſſeover</hi> after <hi>His</hi> Baptiſme was about the end of three moneths, <hi>Iohn</hi> 2. <hi>v.</hi> 13. 23.</p>
+               <p>The ſecond <hi>Paſſeover</hi> is expreſſed, <hi>Iohn c.</hi> 5. <hi>v.</hi> 1. where the word Feaſt, by way of eminency is put for the <hi>Paſſeover,</hi> which was the chiefeſt feaſt of the Jewes. So <hi>Matth.</hi> 27. <hi>v.</hi> 15. So <hi>Iohn</hi> 4. <hi>v.</hi> 45. compared with <hi>c.</hi> 2. <hi>v.</hi> 23. So <hi>c.</hi> 11. <hi>v.</hi> 56. So <hi>c.</hi> 12. <hi>v.</hi> 1, 2. So <hi>c.</hi> 13. <hi>v.</hi> 1. 29.</p>
+               <p>The third <hi>Paſſeover, Iohn</hi> 6. <hi>v.</hi> 4.</p>
+               <p>The fourth <hi>Paſſeover, Iohn</hi> 13. <hi>v.</hi> 1. On the Eve <note place="margin">Mark. 15. v. 42. John 19. v. 31. 42. <hi>Auguſt. de Trin. l.</hi> 4. <hi>c.</hi> 5.</note> whereof <hi>Our Saviour</hi> was crucified, which the Jewes call <hi>the Preparation day;</hi> And was the 25. day of <hi>March,</hi> on which day <hi>He</hi> was alſo conceived in the wombe.</p>
+            </div>
+            <div type="part">
+               <p>
+                  <hi>From whence theſe particulars are manifeſt.</hi>
+               </p>
+               <p n="1">1. <hi>That</hi> from the beginning of the Captivity of
+<pb n="48" facs="tcp:50013:28" rendition="simple:additions"/> 
+                  <hi>Babylon,</hi> unto the firſt of King <hi>Cyrus</hi> are 70. yeeres; from thence unto the end of the 7. of <hi>Artaxerxes Longimanus</hi> are 82. yeeres; which added together, make 152. yeeres. And from thence unto the death and paſſion of <hi>Our Saviour,</hi> are 490. yeeres, or, as the Angel informed <hi>Daniel,</hi> 70. <hi>weeks;</hi> In the end of <note place="margin">Dan. 9. v. 24.</note> which laſt yeere of the ſaid 490. <hi>Our Saviour</hi> was crucified.</p>
+               <p n="2">2. <hi>That</hi> neere the midſt of the laſt week of the ſaid 70. <hi>Our Saviour</hi> entering into <hi>His</hi> Miniſtery, be<g ref="char:EOLhyphen"/>gan <note place="margin">Dan. 9. v. 27. John 4. v. 23. Matt. 27. v. 51. Mark. 15. v. 38</note> to <hi>cauſe the Sacrifice and the Oblation to ceaſe,</hi> but by <hi>His</hi> death <hi>He</hi> did utterly aboliſh them; which was ſignified when <hi>the vaile of the Temple rent in twaine.</hi>
+               </p>
+               <p n="3">3. <hi>That</hi> neere the 25. day of <hi>December,</hi> and moſt <note place="margin">
+                     <hi>Auguſt. in Pſal:</hi> 132. <hi>&amp; de Trin. lib</hi> 4. 2. <hi>Chryſoſt. in c. Lucae.</hi> 1 <hi>v.</hi> 29. <hi>Niceph. Hiſt. Eccleſ. l.</hi> 1. <hi>c.</hi> 12. <hi>Paul Oroſ. l.</hi> 7. <hi>c.</hi> 7. <hi>Genebr. l.</hi> 2. <hi>Ba<g ref="char:EOLhyphen"/>ron. Apparat. ad Annal. Eccleſ. ſub finem. Chemnit. Harim. Evangel. c.</hi> 8. <hi>Gordon. Leſinor. Chr. Tom,</hi> 2. <hi>in apparat.</hi>
+                  </note> probably on that day <hi>Our Saviour</hi> was borne.</p>
+               <p>
+                  <hi>Laſtly,</hi> That from the Creation of <hi>Adam,</hi> unto the birth of <hi>Our Saviour,</hi> are 3966. yeeres, 9. moneths, and 10. daies. Unto which 9. moneths and 10. daies, adding the 5. dayes before the Creation of <hi>Adam,</hi> 
+                  <note place="margin">Gen. 1. v. 23. Exod. 12. v. 2. compared with c. 13. v. 4. <hi>Beda de ratione Temp. c.</hi> 28. <hi>&amp;</hi> 40. <hi>Polan. Synt. Theol. l.</hi> 5. <hi>c.</hi> 7.</note> and then accompting 9. moneths and 15. dayes from the 25. of <hi>December</hi> backwards, It is evident that the world began on the 10. day of <hi>March,</hi> when the Sun entereth into <hi>Aries,</hi> and makes the <hi>Equinoctial.</hi>
+               </p>
+               <closer>
+                  <hi>Soli Sapienti</hi> DEO, <hi>ſit laus &amp; gloria in omne aevum.</hi> Amen.</closer>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="imprimatur">
+            <p>Imprimatur,</p>
+            <closer>
+               <signed>Joſeph Caryl.</signed>
+            </closer>
+            <pb facs="tcp:50013:28"/>
+         </div>
+      </back>
+   </text>
+</TEI>
